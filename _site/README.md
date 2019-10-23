@@ -1,9 +1,8 @@
 # Lanyon
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+I am a Research Assistant Professor at the [New York University](https://engineering.nyu.edu/academics/departments/electrical-and-computer-engineering) Electrical and Computer Engineering department. I am also a member of [NYU Wirelesss](https://wireless.engineering.nyu.edu/). I was employed as a lecturer and a postdoctoral researcher at the University of Michigan in 2017. I received my Ph.D. in Electrical Engineering at the University of Michigan in April 2017. My Ph.D. advisor was Sandeep Pradhan. I also received my M.Sc. in Applied Mathematics in 2016. My research interests are in the general areas of privacy and security, communications, information theory, and learning theory.
 
-![Lanyon](https://f.cloud.github.com/assets/98681/1825266/be03f014-71b0-11e3-9539-876e61530e24.png)
-![Lanyon with open sidebar](https://f.cloud.github.com/assets/98681/1825267/be04a914-71b0-11e3-966f-8afe9894c729.png)
+
 
 
 ## Contents
