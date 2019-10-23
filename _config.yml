@@ -8,7 +8,7 @@
 # Site settings
 title: Test
 author: Test
-author_link: https://whatever.you/like
+author_link: link
 author_description: A few words to describe you & your face
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
