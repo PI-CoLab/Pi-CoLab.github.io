@@ -24,28 +24,46 @@
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/favicon4-apple.png">
   <link rel="shortcut icon" href="/public/favicon3.ico">
-  
+
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-
-
-
-
-
-
-
+</head>
 
 
   <body>
 
-
     <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
      
+     <style type="text/css">
+      .nonmobileShow {display: none;}
+    
+      /* Smartphone Portrait and Landscape */
+      @media only screen
+        and (min-device-width : 480px)
+       { 
+          .nonmobileShow {display: inline;}
+      }
+    </style>
+    
+    
+    
+<style type="text/css">
+  .mobileShow {display: none;}
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){ 
+      .mobileShow {display: inline;}
+  }
+</style>
+
+          <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"  checked>
+    
+    
 
 
- 
-</head>
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
@@ -135,7 +153,9 @@
   </style>
 
 
+
 <div class="mobileShow">
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked="false" />
     <IMG STYLE="WIDTH:300px; HEIGHT:300px;   margin-left: auto;
     margin-right: auto;" SRC="/public/images1.jpg">
       I am a Research Assistant Professor at the <a href="https://engineering.nyu.edu/academics/departments/electrical-and-computer-engineering">New York University</a>
