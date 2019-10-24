@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <style monster>
+        body {
+            background: #24aecd;
+        }
+
+        .monster {
+            width: 500px;
+            height: 283px;
+            margin: 1% auto;
+            background: url("/spritesheet.png") left center;
+            animation: play 4s steps(19) infinite;
+        }
+
+        @keyframes play {
+            100% {
+                background-position: -19000px;
+            }
+        }
+    </style>
+
+    <link href="/monster.css" rel="monster">
+    <link href="http://gmpg.org/xfn/11" rel="profile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <!-- Enable responsiveness on mobile devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <title>
+
+        Farhad Shirani &middot; Research
+
+    </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/public/css/poole.css">
+    <link rel="stylesheet" href="/public/css/syntax.css">
+    <link rel="stylesheet" href="/public/css/lanyon.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/favicon4-apple.png">
+    <link rel="shortcut icon" href="/public/favicon3.ico">
+
+    <!-- RSS -->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+<body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+
+    <style type="text/css">
+        .nonmobileShow {
+            display: none;
+        }
+
+        /* Smartphone Portrait and Landscape */
+        @media only screen and (min-device-width : 480px) {
+            .nonmobileShow {
+                display: inline;
+            }
+        }
+    </style>
+
+
+
+    <style type="text/css">
+        .mobileShow {
+            display: none;
+        }
+
+        /* Smartphone Portrait and Landscape */
+        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            .mobileShow {
+                display: inline;
+            }
+        }
+    </style>
+
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+
+
+
+
+    <!-- Toggleable sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-item">
+            <p><img src="/public/favicon4-apple.png"></p>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a class="sidebar-nav-item" href="/">Home</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <a class="sidebar-nav-item" href="/about.html">Curriculum Vitae</a>
+
+
+
+
+
+
+
+            <a class="sidebar-nav-item active" href="/Research.html">Research</a>
+            <a class="sidebar-nav-item" href="/publications.html">publications</a>
+        </nav>
+
+        <div class="sidebar-item">
+            <p>
+                &copy; 2019. All rights reserved.
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+        <div class="masthead">
+            <div class="container">
+                <h3 class="masthead-title">
+                    <a href="/" title="Home">
+                        <p style="font-family:candara, arial,helvetica;"> Farhad Shirani<br>
+                    </a>
+                    <small>
+                        <font color=#8E8E8C>Research Assistant Professor<br> fsc265@nyu.edu</font>
+                        </p>
+                    </small>
+                </h3>
+            </div>
+        </div>
+
+        <div class="container content">
+            <div class="page">
+                <h1 class="page-title">Research</h1>
+
+
+
+
+
+
+                <p><strong><span style="font-size: 18pt;">Project 4: Energy Efficient Communication over MIMO
+                            Channels</span></strong></p>
+                <p>One of the most significant challenges in the development of 5G cellular communication technologies
+                    is energy consumption. The application of large antenna arrays operating at high frequencies using
+                    existing transmitter/receiver architectures leads to energy demands which are inconsistent with the
+                    limited power budget available in mobile devices and small-cell access points. In conventional MIMO
+                    systems with digital beamforming, it is assumed that each receiver antenna is connected to a high
+                    resolution quantizer. In the standard quantizer design, the power consumption is proportional to the
+                    number of quantization bins and hence grows exponentially in the number of output bits. Application
+                    of high resolution quantizers is especially costly when using channels with large bandwidths since
+                    the power consumption of a quantizer grows linearly in bandwidth. One method which has been proposed
+                    to address high power consumption in massive MIMO systems in high frequencies such as mmWave is to
+                    use low resolution quantizers at each receiver antenna. Reducing the quantizer resolution decreases
+                    power consumption, however, it also results in lower transmission rates. This points to a trade-off
+                    between transmission rate and power consumption which is controlled by the number and resolution of
+                    the quantizers at the receiver.&nbsp;In this project, we investigate the rate-loss due to low
+                    resolution quantization in MIMO communications.&nbsp;&nbsp;</p>
+                <p>In this project, we investigate the rate-loss due to low resolution quantization in MIMO
+                    communications. We propose decoding architectures consisting of an analog processing module, a low
+                    resolution analog to digital converter (ADC) module and a digital processing module.&nbsp;</p>
+                <p><img class="aligncenter wp-image-126 size-full"
+                        src="https://wp.nyu.edu/farhad_shirani/wp-content/uploads/sites/8117/2018/11/Fig1-1.jpg" alt=""
+                        width="912" height="300" /></p>
+                <p>&nbsp;</p>
+                <p>We consider the set of analog functions which are implementable using a concatenation of delay
+                    elements, analog linear combiners and threshold quantizers, and&nbsp;propose the application of
+                    delay elements as a way to eliminate or significantly reduce the quantization rate-loss. We
+                    investigate the problem of expressing the achievable rate region in computable form through an
+                    optimization of single-letter information measures. Furthermore, we study the construction of
+                    optimal codes for the proposed transmission system architecture. This project uncovers and explores
+                    a tradeoff between delay, power consumption, and achievable transmission rate.</p>
+                <p>Furthermore, we develop a framework for the study of network communications over Gaussian MIMO
+                    channels using the proposed receiver architecture. We investigate methods for interference alignment
+                    and management under the restrictions imposed by the analog hardware limitations and low resolution
+                    ADCs. We further study the fundamental limits of communication in the interference channel,
+                    broadcast channel and distributed transmission of sources over multiple access channels.</p>
+                <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+                <script>
+                    (function (document) {
+                        var toggle = document.querySelector('.sidebar-toggle');
+                        var sidebar = document.querySelector('#sidebar');
+                        var checkbox = document.querySelector('#sidebar-checkbox');
+
+                        document.addEventListener('click', function (e) {
+                            var target = e.target;
+
+                            if (!checkbox.checked ||
+                                sidebar.contains(target) ||
+                                (target === checkbox || target === toggle)) return;
+
+                            checkbox.checked = false;
+                        }, false);
+                    })(document);
+                </script>
+</body>
+
+</html>
