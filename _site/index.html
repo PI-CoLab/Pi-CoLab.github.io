@@ -3,8 +3,8 @@
 
 <head>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
     .container1 {
       position: relative;
       text-align: center;
@@ -14,23 +14,15 @@
     
     .centered1 {
       position: absolute;
-      top: 50%;
-      left: 50%;
+      top: 15vh;
+      left: 40vw;
       transform: translate(-50%, -50%);
     }
-    </style> -->
-  <style>
-    .imageContainer {
-      width: 80vw;
-      height: 30vh;
-      background-image: "/public/test";
-    }
-  </style>
-</head>
+    </style>
+    </head>
+    <body>
 
-<body>
-
-
+    
 
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -57,134 +49,136 @@
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-  </head>
+</head>
 
 
-  <body>
+<body>
 
 
-    <style>
-      .shine {
-        height: 20px;
-        width: 100%;
-        background-image: radial-gradient(farthest-side at 50% -50%,
-            hsla(0, 0%, 0%, 1),
-            hsla(0, 0%, 0%, 0));
-        position: relative;
-      }
+  <style>
+   .shine {
+  height: 20px;
+  width: 100%;
+  background-image: radial-gradient(
+    farthest-side at 50% -50%,
+    hsla(0, 0%, 0%, 1),
+    hsla(0, 0%, 0%, 0));
+  position: relative; 
+}
 
-      .shine::before {
-        height: 1px;
-        position: absolute;
-        top: -1px;
-        left: 0;
-        right: 0;
-        background-image: linear-gradient(90deg,
-            hsla(0, 0%, 0%, 0),
-            hsla(0, 0%, 0%, 0.75) 50%,
-            hsla(0, 0%, 0%, 0));
-      }
-    </style>
-    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+.shine::before {
+  height: 1px;
+  position: absolute;
+  top: -1px;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(
+    90deg,
+    hsla(0, 0%, 0%, 0),
+    hsla(0, 0%, 0%, 0.75) 50%,
+    hsla(0, 0%, 0%, 0));
+}
+
+  </style>
+  <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
      styles, `#sidebar-checkbox` for behavior. -->
 
-    <style type="text/css">
+  <style type="text/css">
+    .nonmobileShow {
+      display: none;
+    }
+
+    /* Smartphone Portrait and Landscape */
+    @media only screen and (min-device-width : 480px) {
       .nonmobileShow {
-        display: none;
+        display: inline;
       }
-
-      /* Smartphone Portrait and Landscape */
-      @media only screen and (min-device-width : 480px) {
-        .nonmobileShow {
-          display: inline;
-        }
-      }
-    </style>
+    }
+  </style>
 
 
 
-    <style type="text/css">
+  <style type="text/css">
+    .mobileShow {
+      display: none;
+    }
+
+    /* Smartphone Portrait and Landscape */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
       .mobileShow {
-        display: none;
+        display: inline;
       }
+    }
+  </style>
 
-      /* Smartphone Portrait and Landscape */
-      @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        .mobileShow {
-          display: inline;
-        }
-      }
-    </style>
-
-    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
+  <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
 
 
 
 
 
-    <!-- Toggleable sidebar -->
-    <div class="sidebar" id="sidebar">
-      <div class="sidebar-item">
+  <!-- Toggleable sidebar -->
+  <div class="sidebar" id="sidebar">
+    <div class="sidebar-item">
         <div class="mobileShow">
-          <p><img src="/public/favicon4-apple.png"></p>
+      <p><img src="/public/favicon4-apple.png"></p>
         </div>
         <div class="nonmobileShow">
-          <p><img src="/public/images2.jpg" , style="width:550px;height:220px"></p>
+          <p><img src="/public/images2.jpg", style="width:550px;height:220px"></p>
         </div>
-      </div>
-
-      <nav class="sidebar-nav">
-        <a class="sidebar-nav-item" href="/">Home</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <a class="sidebar-nav-item" href="/about.html">Curriculum Vitae</a>
-
-
-
-
-
-
-
-        <a class="sidebar-nav-item" href="Research.html">Research</a>
-        <a class="sidebar-nav-item" href="/publications.html">Publications</a>
-      </nav>
-
-      <div class="sidebar-item">
-        <p>
-          &copy; 2019. All rights reserved.
-        </p>
-      </div>
     </div>
 
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Home</a>
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <a class="sidebar-nav-item" href="/about.html">Curriculum Vitae</a>
+
+
+
+
+
+
+
+      <a class="sidebar-nav-item" href="Research.html">Research</a>
+      <a class="sidebar-nav-item" href="/publications.html">Publications</a>
+    </nav>
+
+    <div class="sidebar-item">
+      <p>
+        &copy; 2019. All rights reserved.
+      </p>
+    </div>
+  </div>
+
+
+  <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container1">
-          <h3 class="masthead-title">
-            <a href="/" title="Home">
-              <img src="/public/test.jpg" alt="Snow" style="width:80vw;height:40vh">
-              <div class="imageContainer">
-                <p style="font-family:candara, arial,helvetica;"> Farhad Shirani<br>
-            </a>
-            <small>
-              <font color=#8E8E8C>Research Assistant Professor<br> fsc265@nyu.edu</font>
-              </p>
-            </small>
+  <div class="wrap">
+    <div class="masthead">
+      <div class="container1">
+        <h3 class="masthead-title">
+          <a href="/" title="Home">
+            <img src="/public/test.jpg" alt="Snow" style="width:80vw;height:40vh">
+            <div class="centered1"> <p style="font-family:candara, arial,helvetica;"> Farhad Shirani<br>
+          </a>
+          <small>
+            <font color=#8E8E8C>Research Assistant Professor<br> fsc265@nyu.edu</font>
+            </p>
+          </small>
         </div>
         </h3>
       </div>
@@ -226,55 +220,57 @@
         <IMG STYLE="WIDTH:300px; HEIGHT:300px;   margin-left: auto;
     margin-right: auto;" SRC="/public/images1.jpg">
         <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked="false" />
+    
+      I am a Research Assistant Professor at the <a
+        href="https://engineering.nyu.edu/academics/departments/electrical-and-computer-engineering">New York
+        University</a>
+      Electrical and Computer Engineering department. I am also a member of <a
+        href="https://wireless.engineering.nyu.edu">NYU Wireless</a>. I was employed as a lecturer and a postdoctoral
+      researcher at the <a
+      href="https://umich.edu">University of Michigan</a> in 2017. I received my Ph.D. in Electrical Engineering at the
+      University of Michigan in April 2017. My Ph.D. advisor was <a
+      href="https://pradhan.engin.umich.edu/">Sandeep Pradhan</a>. I also received my M.Sc. in Applied
+      Mathematics in 2016. My research interests are in the general areas of privacy and security, wireless
+      communications, information theory, and learning theory.
+      </br>
+    </br>
+      For more information please find my <a
+      href="/about.html">CV</a>.
+      </br>
+    </br>
+      <b>
+        <font color=#000000> I am on the academic job market seeking a tenure-track assistant professor position.
+        </font>
+      </b>
+      </br>
+      </br> 
 
-        I am a Research Assistant Professor at the <a
-          href="https://engineering.nyu.edu/academics/departments/electrical-and-computer-engineering">New York
-          University</a>
-        Electrical and Computer Engineering department. I am also a member of <a
-          href="https://wireless.engineering.nyu.edu">NYU Wireless</a>. I was employed as a lecturer and a postdoctoral
-        researcher at the <a href="https://umich.edu">University of Michigan</a> in 2017. I received my Ph.D. in
-        Electrical Engineering at the
-        University of Michigan in April 2017. My Ph.D. advisor was <a href="https://pradhan.engin.umich.edu/">Sandeep
-          Pradhan</a>. I also received my M.Sc. in Applied
-        Mathematics in 2016. My research interests are in the general areas of privacy and security, wireless
-        communications, information theory, and learning theory.
-        </br>
-        </br>
-        For more information please find my <a href="/about.html">CV</a>.
-        </br>
-        </br>
-        <b>
-          <font color=#000000> I am on the academic job market seeking a tenure-track assistant professor position.
-          </font>
-        </b>
-        </br>
-        </br>
-
-      </div>
+    </div>
 
 
 
       <div class="nonmobileShow">
-        <font size="6">Biography: </font>
+          <font size="6">Biography: </font>
         </br>
-        </br>
+      </br>
         I am a Research Assistant Professor at the <a
           href="https://engineering.nyu.edu/academics/departments/electrical-and-computer-engineering">New York
           University</a>
         Electrical and Computer Engineering department. I am also a member of <a
           href="https://wireless.engineering.nyu.edu">NYU Wireless</a>.
         Prior to joining NYU, I was a lecturer and a postdoctoral researcher at the <a
-          href="https://umich.edu">University of Michigan</a> in Spring and
+        href="https://umich.edu">University of Michigan</a> in Spring and
         Summber of 2017. I received my Ph.D. in Electrical Engineering at the University of Michigan in April 2017. My
-        Ph.D. advisor was Prof. <a href="https://pradhan.engin.umich.edu/">Sandeep Pradhan</a>. I also received my M.Sc.
-        in Applied Mathematics in 2016. My research
+        Ph.D. advisor was Prof. <a
+        href="https://pradhan.engin.umich.edu/">Sandeep Pradhan</a>. I also received my M.Sc. in Applied Mathematics in 2016. My research
         interests are in the general areas of privacy and security, wireless communications, information theory, and
         learning theory.
         </br>
+      </br>
+        For more information please find my <a
+        href="/about.html">CV</a>.
         </br>
-        For more information please find my <a href="/about.html">CV</a>.
-        </br>
-        </br>
+      </br>
 
         <b>
           <font color=#000000> I am on the academic job market seeking a tenure-track assistant professor position.
@@ -389,32 +385,32 @@
     <div align="justify">&nbsp;</div>
 
 
-    </div>
+  </div>
 
 
-    </div>
-    </div>
+  </div>
+  </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-    <script>
-      (function (document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
+  <script>
+    (function (document) {
+      var toggle = document.querySelector('.sidebar-toggle');
+      var sidebar = document.querySelector('#sidebar');
+      var checkbox = document.querySelector('#sidebar-checkbox');
 
-        document.addEventListener('click', function (e) {
-          var target = e.target;
+      document.addEventListener('click', function (e) {
+        var target = e.target;
 
-          if (!checkbox.checked ||
-            sidebar.contains(target) ||
-            (target === checkbox || target === toggle)) return;
+        if (!checkbox.checked ||
+          sidebar.contains(target) ||
+          (target === checkbox || target === toggle)) return;
 
-          checkbox.checked = false;
-        }, false);
+        checkbox.checked = false;
+      }, false);
 
-      })(document);
-    </script>
-  </body>
+    })(document);
+  </script>
+</body>
 
 </html>
