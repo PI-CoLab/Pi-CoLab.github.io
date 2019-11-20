@@ -124,13 +124,15 @@ hr.new1 {
     }
   </style>
 
-  <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
 
 
 
 
 
   <!-- Toggleable sidebar -->
+  <div class="nonmobileShow">
+
+  <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
   <div class="sidebar" id="sidebar">
     <div class="sidebar-item">
         <div class="mobileShow">
@@ -176,7 +178,56 @@ hr.new1 {
       </p>
     </div>
   </div>
+</div>
 
+
+<div class="mobileShow">
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-item">
+          <div class="mobileShow">
+        <p><img src="/public/favicon4-apple.png"></p>
+          </div>
+          <div class="nonmobileShow">
+            <p><img src="/public/images2.jpg", style="width:550px;height:220px;border-radius:70%"></p>
+          </div>
+      </div>
+  
+      <nav class="sidebar-nav">
+        <a class="sidebar-nav-item" href="/">Home</a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+        <a class="sidebar-nav-item" href="/about.html">Curriculum Vitae</a>
+  
+  
+  
+  
+  
+  
+  
+        <a class="sidebar-nav-item" href="Research.html">Research</a>
+        <a class="sidebar-nav-item" href="/publications.html">Publications</a>
+      </nav>
+  
+      <div class="sidebar-item">
+        <p>
+          &copy; 2019. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </div>
 
   <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
