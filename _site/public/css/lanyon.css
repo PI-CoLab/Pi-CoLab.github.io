@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 /* Style and "hide" the sidebar */
-@media only screen and (max-width: 450px) 
+@media only screen and (max-width: 480px) 
 {.sidebar {
   position: fixed;
   top: 0;
@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }}
-@media only screen and (min-width: 450px) 
+@media only screen and (min-width: 480px) 
 {.sidebar {
   position: fixed;
   top: 0;
