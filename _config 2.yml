@@ -1,0 +1,21 @@
+ group :jekyll_plugins do
+   gem "my-jekyll-plugin"
+   gem "jekyll-paginate-category"
+ end
+
+# Setup
+title:                <p style = "font-family:candara, arial,helvetica;"> Farhad Shirani<br>
+tagline:              <font color=#8E8E8C>&Pi;-CoLab<br>
+                     fshianichaharsoogh@ndsu.edu</font></p>
+description:         <img src="public/favicon4-apple.png">
+url:                 
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author:
+  name:             Farhad Shirani
+  email:            fshianichaharsoogh@ndsu.edu
+
+# Custom vars
+version:             1.0.0

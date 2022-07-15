@@ -1,0 +1,8 @@
+tap "homebrew/bundle"
+tap "homebrew/core"
+brew "binutils"
+brew "libusbmuxd"
+brew "python@3.9"
+brew "llvm"
+brew "pyenv"
+brew "ruby"
