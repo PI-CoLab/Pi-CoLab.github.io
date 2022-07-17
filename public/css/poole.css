@@ -445,7 +445,8 @@ a.pagination-item:hover {
 
 .read-more-state:checked ~ .read-more-wrap .read-more-target {
   opacity: 1;
-  font-size: inherit;
+  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-size: 16px;
   max-height: 999em;
 }
 
