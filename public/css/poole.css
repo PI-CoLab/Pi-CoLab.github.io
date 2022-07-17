@@ -451,11 +451,11 @@ a.pagination-item:hover {
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: 'Network Privacy: Read More';
+  content: '<b>Network Privacy:</b> Read More';
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Network Privacy: Show Less';
+  content: '<b>Network Privacy:</b> Show Less';
 }
 
 .read-more-trigger {
