@@ -1,157 +1,585 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153588306-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <title>
-    
-    &Pi;-CoLab &middot; 
-    
-  </title>
+  gtag('config', 'UA-153588306-1');
+</script>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/poole.css">
-  <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/lanyon.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
 
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/favicon4-apple.png">
-  <link rel="shortcut icon" href="/public/favicon3.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <style>
+    ul.no_bullet {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+
+  <style>
+    ul.new1 {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+  </style>
+  <style>
+    li.red {
+      font-size: 40px;
+      background: url(public/ictest5.png) no-repeat left;
+      padding-left: 70px;
+      display: block;
+      line-height: 20px
+    }
+
+    li.red span {
+      font-size: 20px;
+      line-height: 20px
+    }
+  </style>
+  <style>
+    li.wifi {
+      font-size: 40px;
+      background: url(public/wifi.png) no-repeat left;
+      padding-left: 70px;
+      display: block;
+      line-height: 20px
+    }
+
+    li.wifi span {
+      font-size: 20px;
+      line-height: 20px
+    }
+  </style>
+
+  <style>
+    li.it {
+      font-size: 40px;
+      background: url(public/bc.png) no-repeat left;
+      padding-left: 70px;
+      display: block;
+      line-height: 20px
+    }
+
+    li.it span {
+      font-size: 20px;
+      line-height: 20px
+    }
+  </style>
+
+<style>
+    li.ml {
+      font-size: 40px;
+      background: url(public/ml.png) no-repeat left;
+      padding-left: 70px;
+      display: block;
+      line-height: 20px
+    }
+
+    li.ml span {
+      font-size: 20px;
+      line-height: 20px
+    }
+  </style>
+
+  <style>
+    hr.new1 {
+      border-top: 3px solid black;
+      width: 50vw
+    }
+  </style>
+  <style>
+    .container1 {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+
+    .centered1 {
+      position: absolute;
+      top: 30vh;
+      left: 50vw;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+<style>
+div.d {
+  text-align: justify;
+} 
+</style>
 </head>
 
 
-  <body>
 
-    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-     
-     <style type="text/css">
-      .nonmobileShow {display: none;}
-    
-      /* Smartphone Portrait and Landscape */
-      @media only screen
-        and (min-device-width : 480px)
-       { 
-          .nonmobileShow {display: inline;}
-      }
-    </style>
-    
-    
-    
-<style type="text/css">
-  .mobileShow {display: none;}
 
-  /* Smartphone Portrait and Landscape */
-  @media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 480px){ 
-      .mobileShow {display: inline;}
+<link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<title>
+
+  &Pi;-CoLab &middot; Home
+
+</title>
+
+<!-- CSS -->
+<link rel="stylesheet" href="public/css/poole.css">
+<link rel="stylesheet" href="public/css/syntax.css">
+<link rel="stylesheet" href="public/css/lanyon.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/images1.png">
+<link rel="shortcut icon" href="public/favicon3.ico">
+
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+
+<style>
+  body {
+    background-image: url("public/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
   }
-</style>
-
-          <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"  >
-    
-    
-          <!--  -->
+  
+  </style>
+</head>
 
 
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
-  </div>
+<body>
 
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="/">Home</a>
-
-    
-
-    
-    
-      
-    
-      
-    
-      
-        
-          <a class="sidebar-nav-item" href="/about/">About</a>
-        
-      
-    
-      
-    
-      
-    
-      
-    
-    <a class="sidebar-nav-item" href="/People.html">People</a>
-    <a class="sidebar-nav-item" href="/Research.html">Research</a>
-    <a class="sidebar-nav-item" href="/publications.html">Publications</a>
-  </nav>
-
-  <div class="sidebar-item">
-    <p>
-      &copy; 2022. All rights reserved.
-    </br> Last Updated: October 2019
-    </p>
-  </div>
-</div>
+  <style>
 
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="/" title="Home">Your awesome title</a>
-            <small></small>
-          </h3>
-        </div>
+  </style>
+
+  <!-- <style>
+    .shine {
+      height: 20px;
+      width: 100%;
+      background-image: url("publi/background.jpeg");
+      position: relative;
+    }
+
+    .shine::before {
+      height: 1px;
+      position: absolute;
+      top: -1px;
+      left: 0;
+      right: 0;
+      background-image:  url("public/background.jpeg")
+    }
+  </style> -->
+  <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+
+  <style type="text/css">
+    .nonmobileShow {
+      display: none;
+    }
+
+    /* Smartphone Portrait and Landscape */
+    @media only screen and (min-device-width : 480px) {
+      .nonmobileShow {
+        display: inline;
+      }
+    }
+  </style>
+
+
+
+  <style type="text/css">
+    .mobileShow {
+      display: none;
+    }
+
+    /* Smartphone Portrait and Landscape */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+      .mobileShow {
+        display: inline;
+      }
+    }
+  </style>
+
+
+  <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" checked>
+
+
+
+
+
+  <!-- Toggleable sidebar -->
+  <div class="sidebar" id="sidebar">
+    <div class="sidebar-item">
+      <div class="mobileShow">
+        <p><img src="public/images1.png"></p>
+
+        <small>
+          <font color=#8E8E8C>  Director: Farhad Shirani
+            <br>
+            Assistant Professor<br> 
+            <a href = "mailto: fshirani@fiu.edu"><u>Email</u></a></font>
+        </small>
       </div>
+      <div class="nonmobileShow">
+        <p><img src="public/images2.jpg" , style="width:550px;height:220px"></p>
+        </br>
+        <p style="font-family:candara, arial,helvetica;">
+     
+          <!-- <font size="+2" , font color=' #e6e6e6'>      &Pi;-CoLab </font><br>
 
-      <div class="container content">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Jul 14, 2022</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2022/07/14/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
+          <small>
+            <font color=#8E8E8C> Privacy, Inference, and Communications Labratoary</font><br>
+          </small>
+          <hr> -->
+          <font size="+2" , font color=' #e6e6e6'>&Pi;-CoLab </font><br>
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+          <small>
+            <font color=#8E8E8C>  Director: Farhad Shirani
+              <br>
+              Assistant Professor<br> 
+              <a href = "mailto: fshirani@fiu.edu"><u>Email</u></a></font>
+          </small>
 
+        </p> 
       </div>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="index2.html">Home</a>
 
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
 
-        document.addEventListener('click', function(e) {
-          var target = e.target;
 
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
 
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
-  </body>
+
+
+
+
+
+
+
+
+
+
+
+      <a class="sidebar-nav-item" href="People.html">People</a>
+
+
+
+
+
+
+
+      <a class="sidebar-nav-item" href="Research.html">Research</a>
+      <a class="sidebar-nav-item" href="publications.html">Publications</a>
+    </nav>
+
+    <div class="sidebar-item">
+      <p>
+      &copy; 2022. All rights reserved.
+    </br> Last Updated: July 2022
+      </p>
+    </div>
+  </div>
+
+
+  <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+  <div class="container1">
+    <div class="wrap">
+
+      <div class="masthead">
+        <h3 class="masthead-title">
+          <a href="" title="Home">
+            <div class="mobileShow">
+              <p><img src="public/images1.png"></p>
+            </div>
+
+     <div class="nonmobileShow">
+
+        </br>
+        <p style="font-family:candara, arial,helvetica;">
+     
+          <!-- <font size="+2" , font color=' #e6e6e6'>      &Pi;-CoLab </font><br>
+
+          <small>
+            <font color=#8E8E8C> Privacy, Inference, and Communications Labratoary</font><br>
+          </small>
+          <hr> -->
+
+        </p> 
+      </div>
+        </h3>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- <div class="mobileShow">
+      <IMG STYLE="WIDTH:300px; HEIGHT:300px;border-radius:70%;   margin-left: auto;
+    margin-right: auto;" SRC="public/images1.jpg">
+      I am a Research Assistant Professor at the <a
+        href="https://engineering.nyu.edu/academics/departments/electrical-and-computer-engineering">New York
+        University</a>
+      Electrical and Computer Engineering department. I am also a member of <a
+        href="https://wireless.engineering.nyu.edu">NYU Wireless</a>. I was employed as a lecturer and a postdoctoral
+      researcher at the <a href="https://umich.edu">University of Michigan</a> in 2017. I received my Ph.D. in
+      Electrical Engineering at the
+      University of Michigan in April 2017. My Ph.D. advisor was <a href="https://pradhan.engin.umich.edu/">Sandeep
+        Pradhan</a>. I also received my M.Sc. in Applied
+      Mathematics in 2016. My research interests are in the general areas of privacy and security, wireless
+      communications, information theory, and learning theory.
+      </br>
+      </br>
+      For more information please find my <a href="people.htm">CV</a>.
+      </br>
+      </br>
+      <b>
+        <font color=#000000> I am on the academic job market seeking a tenure-track assistant professor position.
+        </font>
+      </b>
+      </br>
+      </br>
+    </div> -->
+
+    <div class="container content">
+
+    <div class="nonmobileShow">
+      <!-- <hr class="new1"> -->
+    </a>
+      <div class="d">
+        <span><b>P</b>rivacy,  <span><b>I</b>nference and  <span><b>Co</b>mmuniations  <span><b>Lab</b>ratoary (&Pi;-CoLab) is a diverse group of interdisciplinary researchers bridging the gamut between theory and practice in 
+      privacy and security (<a href="Project1.html">Project 1</a>), information theory (<a href="Project2.html">Project 2</a>),
+      wireless communications (<a href="Project3.html">Project
+        3</a> and <a href="Project4.html">Project 4</a>),
+      and learning theory (<a href="Project5.html">Project 5</a>).
+      </div>
+      <Hr 
+      size="5" color="black">
+      <font size="6">Research Projects: </font></br>
+
+      <ul>
+        <li class="red">
+
+          <span>
+            </br>
+            </br>
+            <b>Network Privacy:</b> <p class="read-more-wrap"> <span class="read-more-target">This project which focuses on quantifying internet users' privacy risks is a 
+            collaborative effort between FIU's &Pi;-CoLab, NDSU's <a href= "http://cs.ndsu.nodak.edu/~zanwar/#undefined"> CS Department</a>, and NYU's
+             <a href="https://wireless.engineering.nyu.edu">NYU Wireless</a> and <a
+              href="https://engineering.nyu.edu/research-innovation/centers-and-institutes/nyu-center-cybersecurity-ccs">NYU
+              CCS</a>. The project is supported by NSF grant <a
+              href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1815821&amp;HistoricalAwards=false">#CCF-1815821</a>
+            titled `An Information Theoretic Framework for Web Privacy'. Recent significant contributions include
+            <a
+              href="https://ieeexplore.ieee.org/abstract/document/9678358">[1]</a>, <a
+              href="https://ieeexplore.ieee.org/abstract/document/9344632">[2]</a>, and <a
+              href="https://ieeexplore.ieee.org/abstract/document/9518130">[3]</a>. </span></p>
+          </span></li>
+
+
+        <li class="wifi">
+          </br>
+          </br>
+          <span><b>Wireless Communications:</b> This project focuses on wireless communications, and consists of two
+            subprojects, i) energy efficient communication over millimeter wave
+            networks, and b) resource allocation in cellular systems. Recent significant contributions
+            include  <a
+            href="https://ieeexplore.ieee.org/abstract/document/9638691">[4]</a> and <a
+            href="https://arxiv.org/abs/2202.02860">[5]</a>. 
+
+          </span></li>
+
+        <li class="it">
+          </br>
+          </br>
+          <span><b>Multiterminal Information Theory:</b> This project studies the
+            fundamental limits of
+            communication over networks. This is a collaboration between FIU's &Pi;-CoLab and University of Michigan's <a href="https://pradhan.engin.umich.edu"></a>EECS Department   We consider distributed data storage as well as data transmission over
+            interference and broadcast channels.  The project is supported by NSF grant <a
+            href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2132843&HistoricalAwards=false">#CCF-2132843</a>
+          titled `A New Paradigm for Distributed Information Processing, Simulation and Inference in Networks: The Promise of Law of Small Numbers'. The contributions are summarized
+            in a recently published book <a
+            href="https://www.nowpublishers.com/article/Details/CIT-083">[6]</a>. Other more recent contributions include <a
+            href="https://arxiv.org/abs/2202.11238">[7]</a> and <a
+            href="https://ieeexplore.ieee.org/abstract/document/8836360">[8]</a>.
+          </span></li>
+
+          <li class="ml">
+            </br>
+            </br>
+          </br>
+            <span><b>Feature Selection and Function approximation:</b> This project constructs practical 
+              feature selection and function approximation algorithms with applications in 
+              machine learning and pattern recognition and derives
+              the fundamental limits of feature selection in terms 
+              of classification accuracy. The project builds upon prior work in 
+              <a
+              href="https://ieeexplore.ieee.org/abstract/document/8006739">[6]</a> and <a
+              href="https://ieeexplore.ieee.org/abstract/document/8717735">[7]</a>. 
+          
+            </span></li>
+
+      </ul>
+
+
+          <Hr 
+          size="5" color="black">
+          <span><b>We are hiring!</b>
+          Multiple PhD/MSc 
+          positions with financial support are available. 
+          Undergraduate students who are interested in research are 
+          welcome to visit and learn about ongoing projects.
+          <br>
+          <a href = "mailto: fshirani@fiu.edu">Send Email
+        </br>
+        </br>
+        <!-- <hr class="shine">
+        <font size="6">News: </font></br>
+        </br>
+        <div class="nonmobileShow">
+        10-01-2019: Our paper <a href="https://ieeexplore.ieee.org/document/8717735">'On the Sub-Optimality of
+          Single-Letter Coding Over Networks'</a> was published in the October issue of IEEE Transactions on Information
+        Theory. &nbsp;
+    </div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+      10-01-2019: Our paper <a href="https://ieeexplore.ieee.org/document/8836360">'Quasi Structured Codes for
+        Multi-Terminal Communications'</a> was published in the October issue of IEEE Transactions on Information
+      Theory. &nbsp;</div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+      09-07-2019: I presented a tutorial on <a href="https://pimrc2019.ieee-pimrc.org/program/tutorials/">'A
+        Communication Theoretic Perspective on Web Privacy'</a> at the PIMRC 2019 in Istanbul, Turkey. &nbsp;</div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+      07-19-2019: Our tutorial proposal on <a
+        href="https://globecom2019.ieee-globecom.org/authors/call-symposium-papers">'A Communication Theoretic
+        Perspective on Web Privacy'</a> was accepted to be presented at the Globecom 2019 Conference in Hawaii, USA.
+      &nbsp;</div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+      07-05-2019: Our paper <a href="https://arxiv.org/abs/1905.08992">'Opportunistic Temporal Fair Mode Selection and
+        User Scheduling for Full-duplex Systems'</a> was accepted to be presented at the PIMRC 2019 in Istanbul,
+      Turkey. &nbsp;</div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+      07-01-2019: I attended the ISIT 2019 Conference in Paris and presented our work on energy efficient MIMO
+      communication (<a href="https://arxiv.org/pdf/1901.09844.pdf">[1]</a>, <a
+        href="https://arxiv.org/pdf/1901.10628.pdf">[2]</a>), multiuser scheduling (<a
+        href="https://arxiv.org/pdf/1901.07719.pdf">[3]</a>), and database privacy (<a
+        href="https://arxiv.org/pdf/1901.07655.pdf">[4]</a>). &nbsp;</div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+      06-27-2019: I was invited to present our work on 'A New Framework for Web Privacy' in the GRAND workshop at the
+      <a href="https://www.maynoothuniversity.ie/">Maynooth University</a> in Ireland.&nbsp;</div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+      06-20-2019: Our paper <a href="https://arxiv.org/abs/1906.08810">'A New Achievable Rate-Distortion Region for
+        Distributed Source Coding'</a> was submitted to IEEE Transactions on Information Theory.&nbsp;</div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+      04-30-2019 I was invited to present our work on "A Law of Small Numbers for Distributed Information Processing,
+      Classification and Inference" at <a href="https://www.bell-labs.com/">Nokia Bell Labs</a>. &nbsp;</div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+      03-31-2019: Our paper <a href="https://arxiv.org/pdf/1901.09844.pdf">'Tradeoff Between Delay and High SNR
+        Capacity in Quantized MIMO Systems'</a>&nbsp;was accepted to be presented at <a
+        href="https://2019.ieee-isit.org/">IEEE ISIT 2019</a>.&nbsp;</div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+      <div align="justify">
+        03-31-2019: Our paper <a href="https://arxiv.org/pdf/1901.07719.pdf">'On the Fundamental Limits of Multi-user
+          Scheduling under Short-term Fairness Constraints'</a>&nbsp;was accepted to be presented at <a
+          href="https://2019.ieee-isit.org/">IEEE ISIT 2019</a>.&nbsp;</div>
+    </div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+      <div align="justify">
+        <div align="justify">
+          <div align="justify">
+            03-31-2019: Our paper <a href="https://arxiv.org/pdf/1901.07655.pdf">'A Concentration of Measure Approach
+              to Database De-anonymization'</a>&nbsp;was accepted to be presented at <a
+              href="https://2019.ieee-isit.org/">IEEE ISIT 2019</a>.&nbsp;</div>
+        </div>
+      </div>
+    </div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+      03-31-2019: Our paper <a href="https://arxiv.org/pdf/1901.10628.pdf">'On Multiterminal Communication over MIMO
+        Channels with One-bit ADCs at the Receivers'</a>&nbsp;was accepted to be presented at <a
+        href="https://2019.ieee-isit.org/">IEEE ISIT 2019</a>.&nbsp;</div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+      <div align="justify">
+        <div align="justify">
+          01-22-2019: I was invited to present our work on <a href="https://arxiv.org/pdf/1901.07655.pdf">database
+            deanonymization</a> in the <a href="https://ita.ucsd.edu/ws/">ITA 2019 workshop</a>.&nbsp;</div>
+        <div align="justify">&nbsp;</div>
+        <div align="justify">
+          01-15-2019: Our paper <a href="https://arxiv.org/pdf/1705.00410">'On the Sub-optimality of Single-Letter
+            Coding over Networks'</a> which was submitted to <a
+            href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=18">IEEE Transactions on Information
+            Theory</a> received a minor revision.&nbsp;</div>
+      </div>
+      <div align="justify">
+        01-11-2019:&nbsp; A second revision of our paper <a href="https://arxiv.org/pdf/1809.06431">'A General
+          Framework for Temporal Fair User Scheduling in NOMA Systems'</a> was submitted to the <a
+          href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4200690">Journal of Selected Topics in Signal
+          Processing</a>.&nbsp;</div>
+    </div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+      18-11-2018: A second revision of <a href="https://arxiv.org/pdf/1708.00665">'How to Compute Modulo Prime-Power
+        Sums?'</a>&nbsp;was submitted to <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=18">IEEE
+        Transactions on Information Theory'</a>.&nbsp;</div>
+    <div align="justify">&nbsp;</div>
+    <div align="justify">
+    </div>06-08-2018: A tutorial on our work 'An Information Theoretic Framework on Web Privacy' was presented in the
+    <a href="http://easitc.com/welcome.html#welcome">2018 IEEE East Asian School of Information Theory &amp;
+      Communication (EASITC)</a>
+  </div>
+  <div align="justify">&nbsp;</div> -->
+</div>
+
+  </div>
+
+
+  </div>
+  </div>
+
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+  <script>
+    (function (document) {
+      var toggle = document.querySelector('.sidebar-toggle');
+      var sidebar = document.querySelector('#sidebar');
+      var checkbox = document.querySelector('#sidebar-checkbox');
+
+      document.addEventListener('click', function (e) {
+        var target = e.target;
+
+        if (!checkbox.checked ||
+          sidebar.contains(target) ||
+          (target === checkbox || target === toggle)) return;
+
+        checkbox.checked = false;
+      }, false);
+
+    })(document);
+  </script>
+</body>
+
 </html>
