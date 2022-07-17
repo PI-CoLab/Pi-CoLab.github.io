@@ -468,3 +468,15 @@ a.pagination-item:hover {
   border-radius: .25em;
 }
 
+/* Other style */ 
+body {
+  padding: 0%;
+}
+
+p {
+  padding: 0%;
+  background: #fff9c6;
+  color: #c7b27e;
+  border: 1px solid #fce29f;
+  border-radius: .25em;
+}
