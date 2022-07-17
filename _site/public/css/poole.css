@@ -451,11 +451,11 @@ a.pagination-item:hover {
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: ;
+  content: 'Show more';
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
-  content: ;
+  content: 'Show less';
 }
 
 .read-more-trigger {
