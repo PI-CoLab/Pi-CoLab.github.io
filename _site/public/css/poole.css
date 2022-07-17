@@ -433,7 +433,20 @@ a.pagination-item:hover {
 
 
 
-.text{font-family: "PT Serif", Georgia, "Times New Roman", serif;font-size: 16px;}
+#mycheckbox:checked ~ .moretext {
+  display: block;
+}
+
+.moretext{
+  display: none;
+}
+
+#mycheckbox{
+  display: none;
+}
+.showmore{
+  cursor: pointer;
+}
 
 .read-more-state {
   display: none;
