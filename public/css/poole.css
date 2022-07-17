@@ -451,7 +451,7 @@ a.pagination-item:hover {
 }
 
 .read-more-state ~ .read-more-trigger:before {
-  content: <b>Network Privacy:</b>;
+  content: <b>Network Privacy:</b> Click for more details.;
 }
 
 .read-more-state:checked ~ .read-more-trigger:before {
