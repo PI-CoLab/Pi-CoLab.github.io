@@ -432,6 +432,9 @@ a.pagination-item:hover {
 
 
 
+
+.text{font-family: "PT Serif", Georgia, "Times New Roman", serif;font-size: 18px;}
+
 .read-more-state {
   display: none;
 }
