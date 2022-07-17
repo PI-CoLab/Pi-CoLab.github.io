@@ -94,9 +94,9 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .masthead {
-  padding-top:    1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
+  padding-top:    0rem;
+  padding-bottom: 0rem;
+  margin-bottom: 0rem;
   border-bottom: 1px solid #eee;
 }
 .masthead-title {
