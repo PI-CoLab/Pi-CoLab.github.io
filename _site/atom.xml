@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>Your awesome title</title>
+ <title><p style = "font-family:candara, arial,helvetica;"> Farhad Shirani<br></title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2022-07-16T22:47:58-04:00</updated>
+ <updated>2022-07-16T22:50:03-04:00</updated>
  <id>http://localhost:4000</id>
  <author>
-   <name></name>
-   <email></email>
+   <name>Farhad Shirani</name>
+   <email>fshirani@fiu.edu</email>
  </author>
 
  
