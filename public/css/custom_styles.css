@@ -1,0 +1,277 @@
+
+
+.page-layout {
+    display: flex;
+  }
+  
+
+  
+  .main-content {
+    /* Adjust width as needed */
+    margin-left: 14%; 
+
+    width: 55%;
+  }
+  
+  .news-feed {
+    /* Adjust width as needed */
+    margin-left: 67%; 
+    width: 32%;
+    /* make the background light blue */
+    background-color: #99afc6;
+    /* make the background color slightly transparent not the text just the background color */
+    opacity: 0.9;
+    /* Add more styling for the news feed */
+    /* fix the position, so that it doesn't scroll with the page */
+    position: fixed;
+    /* put it on top of the page */
+    top: -2px;
+
+    /* add a border */
+    border: 1px solid black;
+    /* add padding */
+    padding: 10px;
+    /* add box-sizing */
+
+    box-sizing: border-box;
+    /* Add more styling for the news feed */
+  }
+  
+  /* Add additional styling as needed for responsiveness and aesthetics */
+
+  
+  
+ul.no_bullet {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.new1 {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+li.red {
+  font-family: inherit;
+  font-size: 40px;
+  background: url(../ictest5.png) no-repeat left;
+  padding-left: 70px;
+  display: block;
+  line-height: 20px
+}
+
+li.red span {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 20px
+}
+
+li.wifi {
+  font-family: inherit;
+  font-size: 40px;
+  background: url(../wifi.png) no-repeat left;
+  padding-left: 70px;
+  display: block;
+  line-height: 20px
+}
+
+li.wifi span {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 20px
+}
+
+li.it {
+  font-family: inherit;
+  font-size: 40px;
+  background: url(../bc.png) no-repeat left;
+  padding-left: 70px;
+  display: block;
+  line-height: 20px
+}
+
+li.it span {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 20px
+}
+
+li.ml {
+  font-family: inherit;
+  font-size: 40px;
+  background: url(../ml.png) no-repeat left;
+  padding-left: 70px;
+  display: block;
+  line-height: 20px
+}
+
+li.ml span {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 20px
+}
+
+hr.new1 {
+  border-top: 3px solid black;
+  width: 50vw
+}
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered1 {
+  position: absolute;
+  top: 30vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+div.d {
+text-align: justify;
+  font-size: 20px;
+} 
+
+
+    /* Styles for horizontal rule */
+    hr.new1 {
+        border-top: 3px solid black;
+        width: 50vw;
+    }
+
+    /* Styles for container */
+    .container1 {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .centered1 {
+        position: absolute;
+        top: 30vh;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Styles for text alignment */
+    div.d {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+    /* Styles for the body */
+    body {
+        background-image: url(../background.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    /* Responsive design media queries */
+    .nonmobileShow {
+        display: none;
+    }
+
+    @media only screen and (min-device-width : 480px) {
+        .nonmobileShow {
+            display: inline;
+        }
+    }
+
+    .mobileShow {
+        display: none;
+    }
+
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        .mobileShow {
+            display: inline;
+        }
+    }
+
+
+
+
+    li.Farhad {
+      font-size: 20px;
+      background: url(../Shiranichaharsooghi_F.jpg) no-repeat left;
+      padding-left: 240px;
+      display: block;
+      line-height: 24px
+    }
+
+    li.Farhad span {
+      font-size: 16px;
+      line-height: 14px
+    }
+
+  li.Mahshad {
+    font-size: 20px;
+    background: url(../Mahshad.JPG) no-repeat left;
+    padding-left: 240px;
+    display: block;
+    line-height: 24px
+  }
+
+  li.Mahshad span {
+    font-size: 16px;
+    line-height: 14px
+  }
+
+  li.Marian {
+    font-size: 20px;
+    background: url(../Marian.jpeg) no-repeat left;
+    padding-left: 240px;
+    display: block;
+    line-height: 24px
+  }
+
+  li.Hojat {
+    font-size: 20px;
+    background: url(../Hojat.jpg) no-repeat left;
+    padding-left: 240px;
+    display: block;
+    line-height: 24px
+  }
+
+  li.Esteban {
+    font-size: 20px;
+    background: url(../Esteban.jpg) no-repeat left;
+    padding-left: 240px;
+    display: block;
+    line-height: 24px
+  }
+
+  li.Johanna {
+    font-size: 20px;
+    background: url(../Johanna.jpg) no-repeat left;
+    padding-left: 240px;
+    display: block;
+    line-height: 24px
+  }
+
+
+  li.Marian span {
+    font-size: 16px;
+    line-height: 14px
+  }
+
+  li.Hojat span {
+    font-size: 16px;
+    line-height: 14px
+  }
+
+  li.Esteban span {
+    font-size: 16px;
+    line-height: 14px
+  }
+
+  li.Johanna span {
+    font-size: 16px;
+    line-height: 14px
+  }
+
+
