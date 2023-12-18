@@ -1,249 +1,173 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153588306-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153588306-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-153588306-1');
+  </script>
 
-  gtag('config', 'UA-153588306-1');
-</script>
-    <style monster>
-        body {
-            background: #24aecd;
-        }
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-        .monster {
-            width: 500px;
-            height: 283px;
-            margin: 1% auto;
-            background: url("spritesheet.png") left center;
-            animation: play 4s steps(19) infinite;
-        }
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-        @keyframes play {
-            100% {
-                background-position: -19000px;
-            }
-        }
-    </style>
+  <title>
 
-    <link href="monster.css" rel="monster">
-    <link href="http://gmpg.org/xfn/11" rel="profile">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    &Pi;-CoLab &middot; Research
 
-    <!-- Enable responsiveness on mobile devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  </title>
 
-    <title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="public/css/poole.css">
+  <link rel="stylesheet" href="public/css/syntax.css">
+  <link rel="stylesheet" href="public/css/lanyon.css">
+  <link rel="stylesheet" href="public/css/custom_styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
 
-        &Pi;-CoLab &middot; Research
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/favicon4-apple.png">
+  <link rel="shortcut icon" href="public/favicon3.ico">
 
-    </title>
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="public/css/poole.css">
-    <link rel="stylesheet" href="public/css/syntax.css">
-    <link rel="stylesheet" href="public/css/lanyon.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-
-    <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/favicon4-apple.png">
-    <link rel="shortcut icon" href="public/favicon3.ico">
-
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
-  
+  <!-- overright main content in CSS to increase right margine-->
   <style>
-        body {
-          background-image: url("public/background.jpg");
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-        background-size: cover;
-        }
-        
-        </style>
-
-
+    .main-content2 {
+      margin-left: 20%;
+      width:60%;
+    }
+  </style>
+    
 </head>
 
 
 <body>
 
-    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-
-    <style type="text/css">
-        .nonmobileShow {
-            display: none;
-        }
-
-        /* Smartphone Portrait and Landscape */
-        @media only screen and (min-device-width : 480px) {
-            .nonmobileShow {
-                display: inline;
-            }
-        }
-    </style>
+  <div class="page-layout">
+    <!-- Sidebar -->
 
 
+  <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
-    <style type="text/css">
-        .mobileShow {
-            display: none;
-        }
-
-        /* Smartphone Portrait and Landscape */
-        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            .mobileShow {
-                display: inline;
-            }
-        }
-    </style>
-
-    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-
-
-
-
-    <!-- Toggleable sidebar -->
-    <div class="sidebar" id="sidebar">
-        <div class="sidebar-item">
-            <div class="mobileShow">
-                <p><img src="public/images1.png"></p>
-        
-                <small>
-                  <font color=#8E8E8C>  Director: Farhad Shirani
-                    <br>
-                    Assistant Professor<br> 
-                    <a href = "https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao"><font color=#8E8E8C> <u>Google Scholar</u>, <a href = "mailto: fshirani@fiu.edu"><font color=#8E8E8C> <u>Email</u></font></a>, <a href = "/public/CV.pdf"><font color=#8E8E8C> <u>CV</u></font></a></font>
-                </small>
-              </div>
-          <div class="nonmobileShow">
-            <p><img src="public/images2.jpg" , style="width:550px;height:220px"></p>
-            </br>
-            <p style="font-family:candara, arial,helvetica;">
-         
-              <!-- <font size="+2" , font color=' #e6e6e6'>      &Pi;-CoLab </font><br>
-      
-              <small>
-                <font color=#8E8E8C> Privacy, Inference, and Communications Labratoary</font><br>
-              </small>
-              <hr> -->
-              <font size="+2" , font color=' #e6e6e6'>&Pi;-CoLab </font><br>
-      
-              <small>
-                <font color=#8E8E8C>  Director: Farhad Shirani
-                  <br>
-                  Assistant Professor<br> 
-                  <href = "https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao"><font color=#8E8E8C> <u>Google Scholar</u>, <a href = "mailto: fshirani@fiu.edu"><font color=#8E8E8C> <u>Email</u></font></a>, <a href = "/public/CV.pdf"><font color=#8E8E8C> <u>CV</u></font></a></font>
-              </small>
-      
-            </p> 
-          </div>
-          </div>
-
-        <nav class="sidebar-nav">
-            <a class="sidebar-nav-item" href="index2.html">Home</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <a class="sidebar-nav-item" href="People.html">People</a>
-
-
-
-
-
-
-            <a class="sidebar-nav-item active" href="Research.html">Research</a>
-            <a class="sidebar-nav-item" href="publications.html">Publications</a>
-        </nav>
-
-        <div class="sidebar-item">
-            <p>
-                &copy; 2019. All rights reserved.
-            </br> Last Updated: October 2019
-            </p>
-        </div>
+  <!-- Sidebar Content -->
+  <div class="sidebar" id="sidebar">
+    <!-- Sidebar Items -->
+    <div class="sidebar-item">
+      <div class="mobileShow">
+        <p><a href="/index2.html"><img src="public/images1.png" alt="Logo"></a></p>
+        <!-- Director Info -->
+        <small>
+          <font color="#8E8E8C"> Director: Farhad Shirani
+            <br>
+            Assistant Professor<br>
+            <a href="https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao">Google Scholar</a>,
+            <a href="mailto:fshirani@fiu.edu">Email</a>,
+            <a href="/public/CV.pdf">CV</a>
+          </font>
+        </small>
+      </div>
+      <div class="nonmobileShow">
+        <p><img src="public/images2.jpg" style="width:550px;height:220px" alt="Lab Photo"></p>
+        <p style="font-family:candara, arial, helvetica;">
+          <font size="+2" color="#e6e6e6">&Pi;-CoLab</font><br>
+          <small>
+            <font color="#8E8E8C"> Director: Farhad Shirani
+              <br>
+              Assistant Professor<br>
+              <a href="https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao">Google Scholar</a>,
+              <a href="mailto:fshirani@fiu.edu">Email</a>,
+              <a href="/public/CV.pdf">CV</a>
+            </font>
+          </small>
+        </p>
+      </div>
     </div>
 
+    <!-- Navigation -->
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="index2.html">Home</a>
+      <a class="sidebar-nav-item" href="People.html">People</a>
+      <a class="sidebar-nav-item" href="Research.html">Research</a>
+      <a class="sidebar-nav-item" href="publications.html">Publications</a>
+    </nav>
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+    <!-- Footer -->
+    <div class="sidebar-item">
+      <p>&copy; 2023. All rights reserved.<br>Last Updated: December 2023</p>
+    </div>
+  </div>
+
+
+
+  <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
+         <div class="main-content2">  
+  <div class="container1">
+
     <div class="wrap">
-        <div class="masthead">
-            <div class="container">
-                <h3 class="masthead-title">
-                    <a href="" title="Home"><p style = "font-family:candara, arial,helvetica;">  &Pi;-CoLab<br></a>
-                        <small>
-                            <font color=#8E8E8C>Privacy, Inference,<br> and Communications Laboratory</font>
-                           </p>
-                    </small>
-                </h3>
-            </div>
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="" title="Home" style="font-family: candara, arial, helvetica; color: black;">&Pi;-CoLab<br></a>
+            <small>
+              <p style="text-align: center; color: black;">Privacy, Inference,<br> and Communications Laboratory</p>
+            </small>
+          </h3>
+
+            
+
+
         </div>
+      </div>
+    </div>
+    </div>
+  
+</div>  
+</div>
 
-        <div class="container content">
-            <div class="page">
 
 
-
-
-
-
-                <p><strong><span style="font-size: 18pt;">Project 4: Energy Efficient Communication over MIMO
-                            Channels</span></strong><p></p>
-                            One of the most significant challenges in the development of 5G cellular communication technologies
-                    is energy consumption. The application of large antenna arrays operating at high frequencies using
-                    existing transmitter/receiver architectures leads to energy demands which are inconsistent with the
-                    limited power budget available in mobile devices and small-cell access points. In conventional MIMO
-                    systems with digital beamforming, it is assumed that each receiver antenna is connected to a high
-                    resolution quantizer. In the standard quantizer design, the power consumption is proportional to the
-                    number of quantization bins and hence grows exponentially in the number of output bits. Application
-                    of high resolution quantizers is especially costly when using channels with large bandwidths since
-                    the power consumption of a quantizer grows linearly in bandwidth. One method which has been proposed
-                    to address high power consumption in massive MIMO systems in high frequencies such as mmWave is to
-                    use low resolution quantizers at each receiver antenna. Reducing the quantizer resolution decreases
-                    power consumption, however, it also results in lower transmission rates. This points to a trade-off
-                    between transmission rate and power consumption which is controlled by the number and resolution of
-                    the quantizers at the receiver.&nbsp;In this project, we investigate the rate-loss due to low
-                    resolution quantization in MIMO communications.&nbsp;&nbsp;</p>
-                <p>In this project, we investigate the rate-loss due to low resolution quantization in MIMO
-                    communications. We propose decoding architectures consisting of an analog processing module, a low
-                    resolution analog to digital converter (ADC) module and a digital processing module.&nbsp;</p>
-                <p><img class="aligncenter wp-image-126 size-full"
-                        src="https://wp.nyu.edu/farhad_shirani/wp-content/uploads/sites/8117/2018/11/Fig1-1.jpg" alt=""
-                        width="912" height="300" /></p>
+                <p><span style="font-size: 18pt;">Project 4: Multi-user Resource Allocation in Wireless Networks</span>
+ 
+                <p class="p1">Multi-user communication techniques such as non-orthogonal multiple-access (NOMA) have
+                    emerged as one of the key enabling technologies for 5G wireless networks.&nbsp; The objective of the
+                    scheduler is to maximize the system utility (e.g. system throughput) subject to the users'
+                    individual demand constraints, e.g. minimum utility demands or temporal demands. Schedulers which
+                    satisfy minimum utility demand constraints ensure that each individual user is allocated a fraction
+                    of the system throughput which is in agreement with their corresponding quality of service demands.
+                    Temporal demand constraints are considered in order to control the average latency in delay
+                    sensitive applications and to manage power consumption in the users' devices.</p>
+                <p class="p1">In this project, we consider multi-user scheduling under temporal, proportional, and
+                    utilitarian fairness constraints. We have shown that under practical scenarios, multi-user
+                    scheduling techniques such as NOMA scheduling lead to significant improvements compared to single
+                    user scheduling techniques such as orthogonal multiple-access (OMA) scheduling in terms of system
+                    throughput. The objective of this research project is to (i) provide a general framework for
+                    multi-user scheduling which is applicable under arbitrary utility function and various user quality
+                    of service constraints, (ii) uncover the fundamental limits of multi-user scheduling such as maximum
+                    achievable throughput through analytical characterization of the throughput function, and (iii)
+                    provide practical low-complexity algorithms for near-optimal scheduling and verify their
+                    effectiveness under practical static and mobile scenarios using numerical simulations of cellular
+                    networks.</p>
                 <p>&nbsp;</p>
-                <p>We consider the set of analog functions which are implementable using a concatenation of delay
-                    elements, analog linear combiners and threshold quantizers, and&nbsp;propose the application of
-                    delay elements as a way to eliminate or significantly reduce the quantization rate-loss. We
-                    investigate the problem of expressing the achievable rate region in computable form through an
-                    optimization of single-letter information measures. Furthermore, we study the construction of
-                    optimal codes for the proposed transmission system architecture. This project uncovers and explores
-                    a tradeoff between delay, power consumption, and achievable transmission rate.</p>
-                <p>Furthermore, we develop a framework for the study of network communications over Gaussian MIMO
-                    channels using the proposed receiver architecture. We investigate methods for interference alignment
-                    and management under the restrictions imposed by the analog hardware limitations and low resolution
-                    ADCs. We further study the fundamental limits of communication in the interference channel,
-                    broadcast channel and distributed transmission of sources over multiple access channels.</p>
+                     <div><b>S. Shahsavari, F. Shirani, E. Erkip</b></div>
+                <div>"<a href="https://arxiv.org/pdf/1809.06431.pdf">Opportunistic temporal fair scheduling for
+                        non-orthogonal multiple access</a>",</div>
+                <div><em>56th Annual Allerton Conference on Communication, Control, and Computing, August
+                        2018</em></div>
+                
+                <p>&nbsp;</p>
+                <div><b>S. Shahsavari, F. Shirani, E. Erkip</b></div>
+                <div>"<a href="https://ieeexplore.ieee.org/abstract/document/8662633">A general framework for temporal fair user scheduling in NOMA systems</a>",</div>
+                <div><em>IEEE Journal of Selected Topics in Signal Processing 13.3 (2019): 408-422.</em></div>
+                
+
                 <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
                 <script>

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153588306-1"></script>
@@ -8,9 +7,9 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'UA-153588306-1');
   </script>
+
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -28,6 +27,7 @@
   <link rel="stylesheet" href="public/css/poole.css">
   <link rel="stylesheet" href="public/css/syntax.css">
   <link rel="stylesheet" href="public/css/lanyon.css">
+  <link rel="stylesheet" href="public/css/custom_styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
 
   <!-- Icons -->
@@ -36,205 +36,106 @@
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+
+  <!-- overright main content in CSS to increase right margine-->
   <style>
-    li.Farhad {
-      font-size: 20px;
-      background: url(/public/Shiranichaharsooghi_F.jpg) no-repeat left;
-      padding-left: 240px;
-      display: block;
-      line-height: 24px
-    }
-
-    li.Farhad span {
-      font-size: 16px;
-      line-height: 14px
+    .main-content2 {
+      margin-left: 20%;
+      width:60%;
     }
   </style>
-
-
-
-<style>
-  li.Mahshad {
-    font-size: 20px;
-    background: url(/public/Mahshad.JPG) no-repeat left;
-    padding-left: 240px;
-    display: block;
-    line-height: 24px
-  }
-
-  li.Mahshad span {
-    font-size: 16px;
-    line-height: 14px
-  }
-</style>
-
-<style>
-  li.Marian {
-    font-size: 20px;
-    background: url(/public/Marian.jpeg) no-repeat left;
-    padding-left: 240px;
-    display: block;
-    line-height: 24px
-  }
-
-  li.Marian span {
-    font-size: 16px;
-    line-height: 14px
-  }
-</style>
-<style>
-  body {
-    background-image: url("public/background.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  background-size: cover;
-  }
-  
-  </style>
+    
 </head>
 
 
 <body>
 
-  <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
+  <div class="page-layout">
+    <!-- Sidebar -->
 
-  <style type="text/css">
-    .nonmobileShow {
-      display: none;
-    }
-
-    /* Smartphone Portrait and Landscape */
-    @media only screen and (min-device-width : 480px) {
-      .nonmobileShow {
-        display: inline;
-      }
-    }
-  </style>
-
-
-
-  <style type="text/css">
-    .mobileShow {
-      display: none;
-    }
-
-    /* Smartphone Portrait and Landscape */
-    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-      .mobileShow {
-        display: inline;
-      }
-    }
-  </style>
 
   <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
-
-
-
-
-  <!-- Toggleable sidebar -->
+  <!-- Sidebar Content -->
   <div class="sidebar" id="sidebar">
+    <!-- Sidebar Items -->
     <div class="sidebar-item">
       <div class="mobileShow">
-        <p><img src="public/images1.png"></p>
-
+        <p><a href="/index2.html"><img src="public/images1.png" alt="Logo"></a></p>
+        <!-- Director Info -->
         <small>
-          <font color=#8E8E8C>  Director: Farhad Shirani
+          <font color="#8E8E8C"> Director: Farhad Shirani
             <br>
-            Assistant Professor<br> 
-             <a href = "https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao"><font color=#8E8E8C> <u>Google Scholar</u>, <a href = "mailto: fshirani@fiu.edu"><font color=#8E8E8C> <u>Email</u></font></a>, <a href = "/public/CV.pdf"><font color=#8E8E8C> <u>CV</u></font></a></font>
+            Assistant Professor<br>
+            <a href="https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao">Google Scholar</a>,
+            <a href="mailto:fshirani@fiu.edu">Email</a>,
+            <a href="/public/CV.pdf">CV</a>
+          </font>
         </small>
       </div>
       <div class="nonmobileShow">
-        <p><img src="public/images2.jpg" , style="width:550px;height:220px"></p>
-        </br>
-        <p style="font-family:candara, arial,helvetica;">
-     
-          <!-- <font size="+2" , font color=' #e6e6e6'>      &Pi;-CoLab </font><br>
-
+        <p><img src="public/images2.jpg" style="width:550px;height:220px" alt="Lab Photo"></p>
+        <p style="font-family:candara, arial, helvetica;">
+          <font size="+2" color="#e6e6e6">&Pi;-CoLab</font><br>
           <small>
-            <font color=#8E8E8C> Privacy, Inference, and Communications Labratoary</font><br>
-          </small>
-          <hr> -->
-          <font size="+2" , font color=' #e6e6e6'>&Pi;-CoLab </font><br>
-
-          <small>
-            <font color=#8E8E8C>  Director: Farhad Shirani
+            <font color="#8E8E8C"> Director: Farhad Shirani
               <br>
-              Assistant Professor<br> 
-              <a href = "https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao"><font color=#8E8E8C> <u>Google Scholar</u>, <a href = "mailto: fshirani@fiu.edu"><font color=#8E8E8C> <u>Email</u></font></a>, <a href = "/public/CV.pdf"><font color=#8E8E8C> <u>CV</u></font></a></font>
+              Assistant Professor<br>
+              <a href="https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao">Google Scholar</a>,
+              <a href="mailto:fshirani@fiu.edu">Email</a>,
+              <a href="/public/CV.pdf">CV</a>
+            </font>
           </small>
-
-        </p> 
+        </p>
       </div>
     </div>
 
-
+    <!-- Navigation -->
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item" href="index2.html">Home</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <a class="sidebar-nav-item" href="People.html">People</a>
-
-
-
-
-
-
       <a class="sidebar-nav-item" href="Research.html">Research</a>
       <a class="sidebar-nav-item" href="publications.html">Publications</a>
     </nav>
 
+    <!-- Footer -->
     <div class="sidebar-item">
-      <p>
-        &copy; 2021. All rights reserved.
-        </br> Last Updated: April 2021
-      </p>
+      <p>&copy; 2023. All rights reserved.<br>Last Updated: December 2023</p>
     </div>
   </div>
 
 
+
   <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
+         <div class="main-content2">  
   <div class="container1">
-
 
     <div class="wrap">
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="" title="Home">
-              <p style="font-family:candara, arial,helvetica;"> &Pi;-CoLab<br>
-            </a>
+            <a href="" title="Home" style="font-family: candara, arial, helvetica; color: black;">&Pi;-CoLab<br></a>
             <small>
-              <font color=#8E8E8C>Privacy, Inference,<br> and Communications Laboratory</font>
-              </p>
+              <p style="text-align: center; color: black;">Privacy, Inference,<br> and Communications Laboratory</p>
             </small>
           </h3>
+
+            
+
+
         </div>
       </div>
+    </div>
+    </div>
+    
 
-      <div class="wrap">
 
 
 
         <div class="container content">
           <div class="page">
-            <h1 class="page-title">People</h1>
+            
 
 
             <div class="mobileShow">
@@ -253,9 +154,8 @@
               Summer of 2017. He received his Ph.D. in Electrical Engineering at the University of Michigan in April
               2017. He also received his M.Sc.
               in Applied Mathematics in 2016. His research
-              interests are in the general areas of privacy and security, wireless communications, information
-              theory, and
-              learning theory.
+              interests are in the general areas of machine learning, privacy and security, wireless communications, and information
+              theory.
 
                   <Hr 
                   size="5" color="black">
@@ -278,16 +178,39 @@
                   She is pursuing her Ph.D. at the <a href="https://www.cis.fiu.edu">Knight Foundation School of Computing and Information Sciences</a>
                    at <a href="https://www.fiu.edu">Florida International University</a>. She received her B.Sc in Applied Mathematics from  <a href="https://www.fiu.edu">Florida International University</a> in 2022. Her research interests are in the general areas of wireless
                      communication, privacy and security. 
-                 
+                     <Hr 
+                     size="5" color="black">
+                      <br>
+                     <p><img src="public/Hojat.jpg"></p>
+                  Hojat Allah Mousavi is a Ph.D. student member of &Pi;-CoLab. He is pursuing his Ph.D. at the <a href="https://www.cis.fiu.edu">Knight Foundation School of Computing and Information Sciences</a>
+                  at <a href="https://www.fiu.edu">Florida International University</a>. He received his B.Sc in Electrical Engineering from the Tabriz University in 2010 and his M.Sc. in Electrical Engineering from Sharif University of Technology in 2012. His research interests are in the general areas of classical and quantum source simulation, quantum information theory, and machine learning.
+                  <br>              
+                  <Hr 
+                  size="5" color="black">
+                   <br>
+                   <p>
+                    <img src="public/Esteban.jpg"></p>
+                  Esteban Schafir is a Ph.D. student member of &Pi;-CoLab. He is pursuing his Ph.D. at the <a href="https://www.cis.fiu.edu">Knight Foundation School of Computing and Information Sciences</a> at <a href="https://www.fiu.edu">Florida International University</a>. He received his M.Sc. in Computer Science from <a href="https://www.fiu.edu">KFSCIS</a> in 2023. His research interests are in the general areas of privacy and security and information theory.
+                   </p>
+                    <Hr
+                    size="5" color="black">
+                    <br>
+                    <p><img src="public/Johanna.jpg"></p>
+                  Johanna Dezeme is a B.Sc. student member of &Pi;-CoLab. She is pursuing her B.Sc. at the <a href="https://www.cis.fiu.edu">Knight Foundation School of Computing and Information Sciences</a> at <a href="https://www.fiu.edu">Florida International University</a>. Johanna is currently working on a research project focusing on fairness in machine learning.
+                  <Hr
+                  size="5" color="black">
+                  <br>
+                  
             </div>
 
             <div class="nonmobileShow">
-              <Hr 
-              size="5" color="black">
+              
               <br
               >
-              <li class="Farhad">
-                <span>
+              <ul>
+                <hr size="5" color="black">
+                <li class="Farhad">
+                  <span style="text-align: left; color: black;">
                   Farhad Shirani Chaharsooghi is an Assistant Professor at the <a href="https://www.cis.fiu.edu">Knight Foundation School of Computing and Information Sciences</a> at <a href="https://www.fiu.edu">Florida International University</a>
                   . Prior to that he was an Assistant Professor at the Electrical and Computer Engineering Department at <a href="https://www.ndsu.edu/ece/">North Dakota State University</a>.
                   Before joining NDSU, he was a member of the faculty at <a
@@ -298,11 +221,12 @@
                   Summer of 2017. He received his Ph.D. in Electrical Engineering at the University of Michigan in April
                   2017. He also received his M.Sc.
                   in Applied Mathematics in 2016. His research
-                  interests are in the general areas of privacy and security, wireless communications, information
-                  theory, and
-                  learning theory.
+                  interests are in the in the general areas of machine learning, privacy and security, wireless communications, and information
+                  theory.
                 </span>
+                
               </li>
+              
               <Hr 
               size="5" color="black">
               <br
@@ -340,7 +264,68 @@
                   >              <br
                   >
                 </span>
-        </div>
+                </li> 
+
+                <Hr 
+                size="5" color="black">
+
+              <li class="Hojat">
+                <span>
+                  Hojat Allah Mousavi is a Ph.D. student member of &Pi;-CoLab. He is pursuing his Ph.D. at the <a href="https://www.cis.fiu.edu">Knight Foundation School of Computing and Information Sciences</a>
+                   at <a href="https://www.fiu.edu">Florida International University</a>. He received his B.Sc in Electrical Engineering from the Tabriz University in 2010 and his M.Sc. in Electrical Engineering from Sharif University of Technology in 2012. His research interests are in the general areas of classical and quantum source simulation, quantum information theory, and machine learning.
+                     <br
+                      >              <br
+                      >
+                      <br
+                      >              <br
+                      >
+                    </span>
+                  </li>
+                <Hr size="5" color="black">
+                <li class="Esteban">
+                  <span>
+                    Esteban Schafir is a Ph.D. student member of &Pi;-CoLab. He is pursuing his Ph.D. at the <a href="https://www.cis.fiu.edu">Knight Foundation School of Computing and Information Sciences</a>
+                     at <a href="https://www.fiu.edu">Florida International University</a>. He received his M.Sc. in Computer Science from <a href="https://www.fiu.edu">KFSCIS</a> in 2023. His research interests are in the general areas of privacy and security and information theory.
+                       <br
+                        >              <br
+                        >
+                        <br
+                        >              <br
+                        >
+                      </span>
+
+
+                  </span>
+
+                </li>
+                <Hr size="5" color="black">
+                  <li class="Johanna">
+                    <span>
+                      Johanna Dezeme is a B.Sc. student member of &Pi;-CoLab. She is pursuing her B.Sc. at the <a href="https://www.cis.fiu.edu">Knight Foundation School of Computing and Information Sciences</a>
+                       at <a href="https://www.fiu.edu">Florida International University</a>. Johanna is currently working on a research project focusing on fairness in machine learning. 
+                         <br
+                          >              <br
+                          >
+                          <br
+                          >              <br
+                          >
+                        </span>
+                    </span>
+                  </li>
+
+                    <Hr 
+                    size="5" color="black">
+
+
+
+                </span>
+
+
+              </li>  
+
+              </ul>
+
+          </div>
 
               <!-- <iframe src="https://drive.google.com/file/d/1f4BfmY6x9S0xaO6kaUoTF9RFZy2F2t5h/preview" width="640"
                 height="750"></iframe> -->
@@ -354,23 +339,21 @@
 
       <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-      <script>
-        (function (document) {
-          var toggle = document.querySelector('.sidebar-toggle');
-          var sidebar = document.querySelector('#sidebar');
-          var checkbox = document.querySelector('#sidebar-checkbox');
+  <!-- Sidebar Toggle Script -->
+  <script>
+    (function (document) {
+      var toggle = document.querySelector('.sidebar-toggle');
+      var sidebar = document.querySelector('#sidebar');
+      var checkbox = document.querySelector('#sidebar-checkbox');
 
-          document.addEventListener('click', function (e) {
-            var target = e.target;
-
-            if (!checkbox.checked ||
-              sidebar.contains(target) ||
-              (target === checkbox || target === toggle)) return;
-
-            checkbox.checked = false;
-          }, false);
-        })(document);
-      </script>
+      document.addEventListener('click', function (e) {
+        var target = e.target;
+        if (!checkbox.checked || sidebar.contains(target) || (target === checkbox || target === toggle)) return;
+        checkbox.checked = false;
+      }, false);
+    })(document);
+  </script>
+  </div>
 </body>
 
 </html>

@@ -1,262 +1,309 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153588306-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153588306-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-153588306-1');
+  </script>
 
-  gtag('config', 'UA-153588306-1');
-</script>
-    <style monster>
-        body {
-            background: #24aecd;
-        }
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-        .monster {
-            width: 500px;
-            height: 283px;
-            margin: 1% auto;
-            background: url("spritesheet.png") left center;
-            animation: play 4s steps(19) infinite;
-        }
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-        @keyframes play {
-            100% {
-                background-position: -19000px;
-            }
-        }
-    </style>
+  <title>
 
-    <link href="monster.css" rel="monster">
-    <link href="http://gmpg.org/xfn/11" rel="profile">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    &Pi;-CoLab &middot; Research
 
-    <!-- Enable responsiveness on mobile devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  </title>
 
-    <title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="public/css/poole.css">
+  <link rel="stylesheet" href="public/css/syntax.css">
+  <link rel="stylesheet" href="public/css/lanyon.css">
+  <link rel="stylesheet" href="public/css/custom_styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
 
-        &Pi;-CoLab&middot; Research
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/favicon4-apple.png">
+  <link rel="shortcut icon" href="public/favicon3.ico">
 
-    </title>
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="public/css/poole.css">
-    <link rel="stylesheet" href="public/css/syntax.css">
-    <link rel="stylesheet" href="public/css/lanyon.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-
-    <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/favicon4-apple.png">
-    <link rel="shortcut icon" href="public/favicon3.ico">
-
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
-  
-  
+  <!-- overright main content in CSS to increase right margine-->
   <style>
-        body {
-          background-image: url("public/background.jpg");
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-        background-size: cover;
-        }
-        
-        </style>
-
-        
+    .main-content2 {
+      margin-left: 20%;
+      width:60%;
+    }
+  </style>
+    
 </head>
 
 
 <body>
 
-    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-
-    <style type="text/css">
-        .nonmobileShow {
-            display: none;
-        }
-
-        /* Smartphone Portrait and Landscape */
-        @media only screen and (min-device-width : 480px) {
-            .nonmobileShow {
-                display: inline;
-            }
-        }
-    </style>
+  <div class="page-layout">
+    <!-- Sidebar -->
 
 
+  <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
-    <style type="text/css">
-        .mobileShow {
-            display: none;
-        }
-
-        /* Smartphone Portrait and Landscape */
-        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            .mobileShow {
-                display: inline;
-            }
-        }
-    </style>
-
-    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-
-
-
-
-    <!-- Toggleable sidebar -->
-    <div class="sidebar" id="sidebar">
-        <div class="sidebar-item">
-            <div class="mobileShow">
-                <p><img src="public/images1.png"></p>
-        
-                <small>
-                  <font color=#8E8E8C>  Director: Farhad Shirani
-                    <br>
-                    Assistant Professor<br> <a href = "https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao"><font color=#8E8E8C> <u>Google Scholar</u>, <a href = "mailto: fshirani@fiu.edu"><font color=#8E8E8C> <u>Email</u></font></a>, <a href = "/public/CV.pdf"><font color=#8E8E8C> <u>CV</u></font></a> <a href = "mailto: fshirani@fiu.edu"><u>Email</u></a></font>
-                </small>
-              </div>
-          <div class="nonmobileShow">
-            <p><img src="public/images2.jpg" , style="width:550px;height:220px"></p>
-            </br>
-            <p style="font-family:candara, arial,helvetica;">
-         
-              <!-- <font size="+2" , font color=' #e6e6e6'>      &Pi;-CoLab </font><br>
-      
-              <small>
-                <font color=#8E8E8C> Privacy, Inference, and Communications Labratoary</font><br>
-              </small>
-              <hr> -->
-              <font size="+2" , font color=' #e6e6e6'>&Pi;-CoLab </font><br>
-      
-              <small>
-                <font color=#8E8E8C>  Director: Farhad Shirani
-                  <br>
-                  Assistant Professor<br> 
-                  <a href = "https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao"><font color=#8E8E8C> <u>Google Scholar</u>, <a href = "mailto: fshirani@fiu.edu"><font color=#8E8E8C> <u>Email</u></font></a>, <a href = "/public/CV.pdf"><font color=#8E8E8C> <u>CV</u></font></a></font>
-              </small>
-      
-            </p> 
-          </div>
-          </div>
-        <nav class="sidebar-nav">
-            <a class="sidebar-nav-item" href="index2.html">Home</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <a class="sidebar-nav-item" href="People.html">People</a>
-
-
-
-
-
-
-            <a class="sidebar-nav-item active" href="Research.html">Research</a>
-            <a class="sidebar-nav-item" href="publications.html">Publications</a>
-        </nav>
-
-        <div class="sidebar-item">
-            <p>
-                &copy; 2019. All rights reserved.
-            </br> Last Updated: October 2019
-            </p>
-        </div>
+  <!-- Sidebar Content -->
+  <div class="sidebar" id="sidebar">
+    <!-- Sidebar Items -->
+    <div class="sidebar-item">
+      <div class="mobileShow">
+        <p><a href="/index2.html"><img src="public/images1.png" alt="Logo"></a></p>
+        <!-- Director Info -->
+        <small>
+          <font color="#8E8E8C"> Director: Farhad Shirani
+            <br>
+            Assistant Professor<br>
+            <a href="https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao">Google Scholar</a>,
+            <a href="mailto:fshirani@fiu.edu">Email</a>,
+            <a href="/public/CV.pdf">CV</a>
+          </font>
+        </small>
+      </div>
+      <div class="nonmobileShow">
+        <p><img src="public/images2.jpg" style="width:550px;height:220px" alt="Lab Photo"></p>
+        <p style="font-family:candara, arial, helvetica;">
+          <font size="+2" color="#e6e6e6">&Pi;-CoLab</font><br>
+          <small>
+            <font color="#8E8E8C"> Director: Farhad Shirani
+              <br>
+              Assistant Professor<br>
+              <a href="https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao">Google Scholar</a>,
+              <a href="mailto:fshirani@fiu.edu">Email</a>,
+              <a href="/public/CV.pdf">CV</a>
+            </font>
+          </small>
+        </p>
+      </div>
     </div>
 
+    <!-- Navigation -->
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="index2.html">Home</a>
+      <a class="sidebar-nav-item" href="People.html">People</a>
+      <a class="sidebar-nav-item" href="Research.html">Research</a>
+      <a class="sidebar-nav-item" href="publications.html">Publications</a>
+    </nav>
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+    <!-- Footer -->
+    <div class="sidebar-item">
+      <p>&copy; 2023. All rights reserved.<br>Last Updated: December 2023</p>
+    </div>
+  </div>
+
+
+
+  <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
+         <div class="main-content2">  
+  <div class="container1">
+
     <div class="wrap">
-        <div class="masthead">
-            <div class="container">
-                <h3 class="masthead-title">
-                    <a href="" title="Home"><p style = "font-family:candara, arial,helvetica;">  &Pi;-CoLab<br></a>
-                        <small>
-                            <font color=#8E8E8C>Privacy, Inference,<br> and Communications Laboratory</font>
-                           </p>
-                    </small>
-                </h3>
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="" title="Home" style="font-family: candara, arial, helvetica; color: black;">&Pi;-CoLab<br></a>
+            <small>
+              <p style="text-align: center; color: black;">Privacy, Inference,<br> and Communications Laboratory</p>
+            </small>
+          </h3>
+
+            
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+  
+</div>  
+</div>
+
+<br><br><br><br><br>
+
+
+                <div>
+                    <p><span style="font-size: 18pt;"><strong>Project 3: Optimal Code Structures in Network
+                                Communications</strong></span>
+                    <p class="p1">In this work we investigate the structure of optimality achieving codes in
+                        multiterminal communications.&nbsp;We divide these structures into two main categories: 1)
+                        randomly generated codes with algebraic structures with&nbsp;effective lengths which are
+                        asymptotically large such as linear codes and group codes, and 2) randomly generated codes with
+                        constant finite effective length. We show the necessity of both these categories of structured
+                        codes in various network communication settings.&nbsp;</p>
+                    <p><b style="font-size: xx-large;">&nbsp;</b></p>
+                    <p>&nbsp;</p>
+                    <hr />
+                    <p><span style="font-size: 18pt;"><b>Sub-optimality of Single-letter Coding in Networks</b></span>
+                    </p>
+                </div>
+                <p>Users in multiterminal communications face an intrinsic trade-off. On the one hand, they have to
+                    transmit their respective messages efficiently and reliably (communication). On the other hand, they
+                    have to coordinate with other users to facilitate their communication tasks (cooperation).&nbsp;We
+                    argue that codes which are <em>good</em> for communication have long memory (i.e operate over large
+                    blocks), whereas codes which are<em> good</em> for cooperation have short memory. In this project,
+                    we introduce the concept of dependency spectrum which provides a mathematical quantification of a
+                    code's <em>effective length</em> or memory.&nbsp;We also prove the sub-optimality of the
+                    Shannon-theoretic coding schemes used in several multi-terminal communication scenarios such as
+                    distributed source coding and distributed transmission of sources over channels. This is the first
+                    such observation in our field, and an indicator that we must take a different approach to network
+                    communications than what was done in the past several decades.</p>
+                    <iframe src="https://drive.google.com/file/d/1giwyMwGqCPu1ra1wSC3t9Gjej3i0G4fo/preview" width="640" height="480"></iframe>
+                <p>&nbsp;</p>
+                <div><b>F. Shirani, S. Pradhan</b></div>
+                <div>"<a class="gsc_a_at" href="https://ieeexplore.ieee.org/document/8006739">On the correlation between
+                        Boolean functions of sequences of random variables</a>",</div>
+                <div><i>International Symposium on Information Theory</i>&nbsp;(ISIT), Aachen, Germany (July 2017)&nbsp;
+                </div>
+                <div><a href="https://ieeexplore.ieee.org/document/8006739" target="_blank"
+                        rel="nofollow noopener">[pdf]</a></div>
+                <div>&nbsp;</div>
+                <div>
+                    <div><b>F. Shirani, S. Pradhan</b></div>
+                    <div>"<a href="https://ieeexplore.ieee.org/document/8006844">On the sub-optimality of single-letter
+                            coding in multi-terminal communications</a>",</div>
+                    <div><i>International Symposium on Information Theory</i>&nbsp;(ISIT), Aachen, Germany (July
+                        2017)&nbsp;</div>
+                    <div><a href="https://ieeexplore.ieee.org/document/8006844" target="_blank"
+                            rel="nofollow noopener">[pdf]</a></div>
+                </div>
+                <hr />
+                <p><span style="font-size: 18pt;"><b>New Methods for Lattice Construction and Analysis</b></span></p>
+
+
+                <p>Direct performance analysis of lattice coding techniques in general
+                    multi-terminal setups turns out to be difficult. The analysis is usually
+                    carried out for quantization of Gaussian sources with linear Gaussian
+                    test channels, and quadratic distortion, and cost constraints a.k.a LQG
+                    problems. Also, the lattices used for network communications are
+                    designed for point-to-point communications, as opposed to the linear
+                    codes in the discrete world which are tailored for specific
+                    multi-terminal problems. Hence, characterizations of performance limits
+                    of lattices in general communication problems are not available. We
+                    provide a new method for lattice generation and lattice quantization.
+                    The advantage of the new method is that it allows for ‘technology
+                    transfer’ from discrete structured coding techniques to lattice
+                    generation techniques. We construct lattices which are truly designed
+                    for multi-terminal communications.</p>
+
+    <p>The method proposes the following
+        advantages:</p>
+    <ul>
+        <li><i>New method for multi-terminal lattice construction.&nbsp;</i></li>
+        <li><i>Improved characterizations of performance limits of lattices in several
+                communication problems.</i></li>
+        <li>Technology transfer from the discrete source coding and channel coding problems
+            to the continuous settings.</li>
+    </ul>
+    
+    <p>More details can be found in the following:</p>
+    <div>
+        <div><b>F. Shirani, S. Pradhan</b></div>
+        <div>"<a
+                href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=M1Ab5mEAAAAJ&amp;citation_for_view=M1Ab5mEAAAAJ:Tyk-4Ss8FVUC">New
+                lattice codes for multiple-descriptions</a>",</div>
+        <div><i>International Symposium on Information Theory</i>&nbsp;(ISIT), Hong Kong,
+            South Korea (July 2015)</div>
+        <div><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7282722" target="_blank"
+                rel="nofollow noopener">[pdf]</a></div>
+    </div>
+    <div>&nbsp;</div>
+    <div>
+        <div>
+            <div>
+                <div>
+                    <div><b>F. Shirani, S. Pradhan</b></div>
+                    <div>"<a class="gsc_a_at" href="https://ieeexplore.ieee.org/document/8437668">Lattices
+                            from Linear Codes and Fine Quantization: General Continuous
+                            Sources and Channels</a>",</div>
+                </div>
             </div>
         </div>
+    </div>
+    <div>
+    </div>
+    <div>
+        <div>
+            <div><i>International Symposium on Information Theory</i>&nbsp;(ISIT), Vail,
+                Colorado, USA (July 2018)&nbsp;</div>
+            <div><a href="https://ieeexplore.ieee.org/document/8437668" target="_blank"
+                    rel="nofollow noopener">[pdf]</a></div>
+        </div>
+        <div>&nbsp;</div>
+    </div>
+    <hr />
+    <p><span style="color: #000000;"><span style="font-size: 18pt;"><strong>Structure Codes
+                    for Multiple-Descriptions</strong></span><br /></span></p>
+    <p><span style="color: #000000;">We proposed random coding and structured coding schemes
+            that improve upon the previous known&nbsp;achievability&nbsp;schemes in the
+            multiple descriptions problem. The schemes uses univariate, bivariate and
+            multi-variate common components to compress the source more
+            efficiently.<br /></span><span style="color: #000000;">Our Contributions include:<br /></span>
+    </p>
+    <ul>
+        <li><i>An improved random coding scheme for the general multiple-descriptions
+                scheme.&nbsp;</i></li>
+        <li><i>A new structured coding scheme for the multiple-descriptions scheme.</i></li>
+        <li><i>Derivation of new general mutual covering and packing bounds for application
+                of nested&nbsp;structured&nbsp;codes, these bounds can have applications in
+                all other multi-terminal communications settings.</i></li>
 
-        <div class="container content">
-            <div class="page">
+
+        <div>
+            <div><b>F. Shirani, S. Pradhan</b></div>
+            <div>"<a href="https://ieeexplore.ieee.org/document/6874898">An achievable
+                    rate-distortion region for the multiple descriptions problem</a>",</div>
+            <div><i>International Symposium on Information Theory</i>&nbsp;(ISIT), Hawaii, USA
+                (July 2014)</div>
+            <div><a href="https://ieeexplore.ieee.org/document/6874898" target="_blank"
+                    rel="nofollow noopener">[pdf]</a></div>
+        </div>
+        <div>&nbsp;</div>
+        <div><b>F. Shirani, S. Pradhan</b></div>
+        <div>"<a href="https://ieeexplore.ieee.org/abstract/document/8288663/">An achievable
+                rate-distortion region for multiple descriptions source coding based on coset
+                codes</a>."&nbsp;<i>IEEE Transactions on Information Theory</i>&nbsp;64.5
+            (2018): 3781-3809.</div>
+        <div>
+            <div><a href="https://ieeexplore.ieee.org/abstract/document/8288663/" target="_blank"
+                    rel="nofollow noopener">[pdf]</a></div>
+        </div>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
 
 
+        <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
+        <script>
+            (function (document) {
+                var toggle = document.querySelector('.sidebar-toggle');
+                var sidebar = document.querySelector('#sidebar');
+                var checkbox = document.querySelector('#sidebar-checkbox');
 
+                document.addEventListener('click', function (e) {
+                    var target = e.target;
 
+                    if (!checkbox.checked ||
+                        sidebar.contains(target) ||
+                        (target === checkbox || target === toggle)) return;
 
-                <p><span style="font-size: 18pt;">Project 3: Multi-user Resource Allocation in Wireless Networks</span>
- 
-                <p class="p1">Multi-user communication techniques such as non-orthogonal multiple-access (NOMA) have
-                    emerged as one of the key enabling technologies for 5G wireless networks.&nbsp; The objective of the
-                    scheduler is to maximize the system utility (e.g. system throughput) subject to the users'
-                    individual demand constraints, e.g. minimum utility demands or temporal demands. Schedulers which
-                    satisfy minimum utility demand constraints ensure that each individual user is allocated a fraction
-                    of the system throughput which is in agreement with their corresponding quality of service demands.
-                    Temporal demand constraints are considered in order to control the average latency in delay
-                    sensitive applications and to manage power consumption in the users' devices.</p>
-                <p class="p1">In this project, we consider multi-user scheduling under temporal, proportional, and
-                    utilitarian fairness constraints. We have shown that under practical scenarios, multi-user
-                    scheduling techniques such as NOMA scheduling lead to significant improvements compared to single
-                    user scheduling techniques such as orthogonal multiple-access (OMA) scheduling in terms of system
-                    throughput. The objective of this research project is to (i) provide a general framework for
-                    multi-user scheduling which is applicable under arbitrary utility function and various user quality
-                    of service constraints, (ii) uncover the fundamental limits of multi-user scheduling such as maximum
-                    achievable throughput through analytical characterization of the throughput function, and (iii)
-                    provide practical low-complexity algorithms for near-optimal scheduling and verify their
-                    effectiveness under practical static and mobile scenarios using numerical simulations of cellular
-                    networks.</p>
-                <p>&nbsp;</p>
-                <iframe src="https://drive.google.com/file/d/1S9phUxyPR1Uwg4e08gmh2zOOylPD2t3m/preview" width="640" height="480"></iframe>
-                <div><b>S. Shahsavari, F. Shirani, E. Erkip</b></div>
-                <div>"<a href="https://arxiv.org/pdf/1809.06431.pdf">Opportunistic temporal fair scheduling for
-                        non-orthogonal multiple access</a>",</div>
-                <div><em>56th Annual Allerton Conference on Communication, Control, and Computing, Accepted: August
-                        2018</em></div>
-                <div><a href="https://arxiv.org/pdf/1809.06431.pdf" target="_blank" rel="nofollow noopener">[pdf]</a>
-                </div>
-                <p>&nbsp;</p>
-                <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-                <script>
-                    (function (document) {
-                        var toggle = document.querySelector('.sidebar-toggle');
-                        var sidebar = document.querySelector('#sidebar');
-                        var checkbox = document.querySelector('#sidebar-checkbox');
-
-                        document.addEventListener('click', function (e) {
-                            var target = e.target;
-
-                            if (!checkbox.checked ||
-                                sidebar.contains(target) ||
-                                (target === checkbox || target === toggle)) return;
-
-                            checkbox.checked = false;
-                        }, false);
-                    })(document);
-                </script>
+                    checkbox.checked = false;
+                }, false);
+            })(document);
+        </script>
 </body>
 
 </html>

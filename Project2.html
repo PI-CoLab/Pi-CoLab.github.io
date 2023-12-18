@@ -1,381 +1,299 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
-    
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153588306-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153588306-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-153588306-1');
+  </script>
 
-  gtag('config', 'UA-153588306-1');
-</script>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-    <style monster>
-        body {
-            background: #24aecd;
-        }
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-        .monster {
-            width: 500px;
-            height: 283px;
-            margin: 1% auto;
-            background: url("spritesheet.png") left center;
-            animation: play 4s steps(19) infinite;
-        }
+  <title>
 
-        @keyframes play {
-            100% {
-                background-position: -19000px;
-            }
-        }
-    </style>
+    &Pi;-CoLab &middot; Research
 
-    <link href="monster.css" rel="monster">
-    <link href="http://gmpg.org/xfn/11" rel="profile">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  </title>
 
-    <!-- Enable responsiveness on mobile devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <!-- CSS -->
+  <link rel="stylesheet" href="public/css/poole.css">
+  <link rel="stylesheet" href="public/css/syntax.css">
+  <link rel="stylesheet" href="public/css/lanyon.css">
+  <link rel="stylesheet" href="public/css/custom_styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
 
-    <title>
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/favicon4-apple.png">
+  <link rel="shortcut icon" href="public/favicon3.ico">
 
-        &Pi;-CoLab &middot; Research
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
 
-    </title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="public/css/poole.css">
-    <link rel="stylesheet" href="public/css/syntax.css">
-    <link rel="stylesheet" href="public/css/lanyon.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-
-    <!-- Icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/favicon4-apple.png">
-    <link rel="shortcut icon" href="public/favicon3.ico">
-
-    <!-- RSS -->
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
-    <style>
-        body {
-          background-image: url("public/background.jpg");
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-        background-size: cover;
-        }
-        
-        </style>
+  <!-- overright main content in CSS to increase right margine-->
+  <style>
+    .main-content2 {
+      margin-left: 20%;
+      width:60%;
+    }
+  </style>
+    
 </head>
 
 
 <body>
 
-    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-
-    <style type="text/css">
-        .nonmobileShow {
-            display: none;
-        }
-
-        /* Smartphone Portrait and Landscape */
-        @media only screen and (min-device-width : 480px) {
-            .nonmobileShow {
-                display: inline;
-            }
-        }
-    </style>
+  <div class="page-layout">
+    <!-- Sidebar -->
 
 
+  <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
-    <style type="text/css">
-        .mobileShow {
-            display: none;
-        }
-
-        /* Smartphone Portrait and Landscape */
-        @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-            .mobileShow {
-                display: inline;
-            }
-        }
-    </style>
-
-    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-
-
-
-
-    <!-- Toggleable sidebar -->
-    <div class="sidebar" id="sidebar">
-        <div class="sidebar-item">
-            <div class="mobileShow">
-                <p><img src="public/images1.png"></p>
-        
-                <small>
-                  <font color=#8E8E8C>  Director: Farhad Shirani
-                    <br>
-                    Assistant Professor<br> 
-                    <a href = "https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao"><font color=#8E8E8C> <u>Google Scholar</u>, <a href = "mailto: fshirani@fiu.edu"><font color=#8E8E8C> <u>Email</u></font></a>, <a href = "/public/CV.pdf"><font color=#8E8E8C> <u>CV</u></font></a></font>
-                </small>
-              </div>
-          <div class="nonmobileShow">
-            <p><img src="public/images2.jpg" , style="width:550px;height:220px"></p>
-            </br>
-            <p style="font-family:candara, arial,helvetica;">
-         
-              <!-- <font size="+2" , font color=' #e6e6e6'>      &Pi;-CoLab </font><br>
-      
-              <small>
-                <font color=#8E8E8C> Privacy, Inference, and Communications Labratoary</font><br>
-              </small>
-              <hr> -->
-              <font size="+2" , font color=' #e6e6e6'>&Pi;-CoLab </font><br>
-      
-              <small>
-                <font color=#8E8E8C>  Director: Farhad Shirani
-                  <br>
-                  Assistant Professor<br> 
-                  <a href = "https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao"><font color=#8E8E8C> <u>Google Scholar</u>, <a href = "mailto: fshirani@fiu.edu"><font color=#8E8E8C> <u>Email</u></font></a>, <a href = "/public/CV.pdf"><font color=#8E8E8C> <u>CV</u></font></a></font>
-              </small>
-      
-            </p> 
-          </div>
-          </div>
-        <nav class="sidebar-nav">
-            <a class="sidebar-nav-item" href="index2.html">Home</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <a class="sidebar-nav-item" href="People.html">People</a>
-
-
-
-
-
-
-            <a class="sidebar-nav-item active" href="Research.html">Research</a>
-            <a class="sidebar-nav-item" href="publications.html">Publications</a>
-        </nav>
-
-        <div class="sidebar-item">
-            <p>
-                &copy; 2019. All rights reserved.
-            </br> Last Updated: October 2019
-            </p>
-        </div>
+  <!-- Sidebar Content -->
+  <div class="sidebar" id="sidebar">
+    <!-- Sidebar Items -->
+    <div class="sidebar-item">
+      <div class="mobileShow">
+        <p><a href="/index2.html"><img src="public/images1.png" alt="Logo"></a></p>
+        <!-- Director Info -->
+        <small>
+          <font color="#8E8E8C"> Director: Farhad Shirani
+            <br>
+            Assistant Professor<br>
+            <a href="https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao">Google Scholar</a>,
+            <a href="mailto:fshirani@fiu.edu">Email</a>,
+            <a href="/public/CV.pdf">CV</a>
+          </font>
+        </small>
+      </div>
+      <div class="nonmobileShow">
+        <p><img src="public/images2.jpg" style="width:550px;height:220px" alt="Lab Photo"></p>
+        <p style="font-family:candara, arial, helvetica;">
+          <font size="+2" color="#e6e6e6">&Pi;-CoLab</font><br>
+          <small>
+            <font color="#8E8E8C"> Director: Farhad Shirani
+              <br>
+              Assistant Professor<br>
+              <a href="https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao">Google Scholar</a>,
+              <a href="mailto:fshirani@fiu.edu">Email</a>,
+              <a href="/public/CV.pdf">CV</a>
+            </font>
+          </small>
+        </p>
+      </div>
     </div>
 
+    <!-- Navigation -->
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="index2.html">Home</a>
+      <a class="sidebar-nav-item" href="People.html">People</a>
+      <a class="sidebar-nav-item" href="Research.html">Research</a>
+      <a class="sidebar-nav-item" href="publications.html">Publications</a>
+    </nav>
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+    <!-- Footer -->
+    <div class="sidebar-item">
+      <p>&copy; 2023. All rights reserved.<br>Last Updated: December 2023</p>
+    </div>
+  </div>
+
+
+
+  <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
+         <div class="main-content2">  
+  <div class="container1">
+
     <div class="wrap">
-        <div class="masthead">
-            <div class="container">
-                <h3 class="masthead-title">
-                    <a href="" title="Home"><p style = "font-family:candara, arial,helvetica;">  &Pi;-CoLab<br></a>
-                        <small>
-                            <font color=#8E8E8C>Privacy, Inference,<br> and Communications Laboratory</font>
-                          </p>
-                    </small>
-                </h3>
-            </div>
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="" title="Home" style="font-family: candara, arial, helvetica; color: black;">&Pi;-CoLab<br></a>
+            <small>
+              <p style="text-align: center; color: black;">Privacy, Inference,<br> and Communications Laboratory</p>
+            </small>
+          </h3>
+
+            
+
+
         </div>
-
-        <div class="container content">
-            <div class="page">
-
-
-
-
-
-
-
-                <div>
-                    <p><span style="font-size: 18pt;"><strong>Project 2: Optimal Code Structures in Network
-                                Communications</strong></span>
-                    <p class="p1">In this work we investigate the structure of optimality achieving codes in
-                        multiterminal communications.&nbsp;We divide these structures into two main categories: 1)
-                        randomly generated codes with algebraic structures with&nbsp;effective lengths which are
-                        asymptotically large such as linear codes and group codes, and 2) randomly generated codes with
-                        constant finite effective length. We show the necessity of both these categories of structured
-                        codes in various network communication settings.&nbsp;</p>
-                    <p><b style="font-size: xx-large;">&nbsp;</b></p>
-                    <p>&nbsp;</p>
-                    <hr />
-                    <p><span style="font-size: 18pt;"><b>Sub-optimality of Single-letter Coding in Networks</b></span>
-                    </p>
-                </div>
-                <p>Users in multiterminal communications face an intrinsic trade-off. On the one hand, they have to
-                    transmit their respective messages efficiently and reliably (communication). On the other hand, they
-                    have to coordinate with other users to facilitate their communication tasks (cooperation).&nbsp;We
-                    argue that codes which are <em>good</em> for communication have long memory (i.e operate over large
-                    blocks), whereas codes which are<em> good</em> for cooperation have short memory. In this project,
-                    we introduce the concept of dependency spectrum which provides a mathematical quantification of a
-                    code's <em>effective length</em> or memory.&nbsp;We also prove the sub-optimality of the
-                    Shannon-theoretic coding schemes used in several multi-terminal communication scenarios such as
-                    distributed source coding and distributed transmission of sources over channels. This is the first
-                    such observation in our field, and an indicator that we must take a different approach to network
-                    communications than what was done in the past several decades.</p>
-                    <iframe src="https://drive.google.com/file/d/1giwyMwGqCPu1ra1wSC3t9Gjej3i0G4fo/preview" width="640" height="480"></iframe>
-                <p>&nbsp;</p>
-                <div><b>F. Shirani, S. Pradhan</b></div>
-                <div>"<a class="gsc_a_at" href="https://ieeexplore.ieee.org/document/8006739">On the correlation between
-                        Boolean functions of sequences of random variables</a>",</div>
-                <div><i>International Symposium on Information Theory</i>&nbsp;(ISIT), Aachen, Germany (July 2017)&nbsp;
-                </div>
-                <div><a href="https://ieeexplore.ieee.org/document/8006739" target="_blank"
-                        rel="nofollow noopener">[pdf]</a></div>
-                <div>&nbsp;</div>
-                <div>
-                    <div><b>F. Shirani, S. Pradhan</b></div>
-                    <div>"<a href="https://ieeexplore.ieee.org/document/8006844">On the sub-optimality of single-letter
-                            coding in multi-terminal communications</a>",</div>
-                    <div><i>International Symposium on Information Theory</i>&nbsp;(ISIT), Aachen, Germany (July
-                        2017)&nbsp;</div>
-                    <div><a href="https://ieeexplore.ieee.org/document/8006844" target="_blank"
-                            rel="nofollow noopener">[pdf]</a></div>
-                </div>
-                <hr />
-                <p><span style="font-size: 18pt;"><b>New Methods for Lattice Construction and Analysis</b></span></p>
-
-
-                <p>Direct performance analysis of lattice coding techniques in general
-                    multi-terminal setups turns out to be difficult. The analysis is usually
-                    carried out for quantization of Gaussian sources with linear Gaussian
-                    test channels, and quadratic distortion, and cost constraints a.k.a LQG
-                    problems. Also, the lattices used for network communications are
-                    designed for point-to-point communications, as opposed to the linear
-                    codes in the discrete world which are tailored for specific
-                    multi-terminal problems. Hence, characterizations of performance limits
-                    of lattices in general communication problems are not available. We
-                    provide a new method for lattice generation and lattice quantization.
-                    The advantage of the new method is that it allows for ‘technology
-                    transfer’ from discrete structured coding techniques to lattice
-                    generation techniques. We construct lattices which are truly designed
-                    for multi-terminal communications.</p>
-
-    <p>The method proposes the following
-        advantages:</p>
-    <ul>
-        <li><i>New method for multi-terminal lattice construction.&nbsp;</i></li>
-        <li><i>Improved characterizations of performance limits of lattices in several
-                communication problems.</i></li>
-        <li>Technology transfer from the discrete source coding and channel coding problems
-            to the continuous settings.</li>
-    </ul>
-    
-    <p>More details can be found in the following:</p>
-    <div>
-        <div><b>F. Shirani, S. Pradhan</b></div>
-        <div>"<a
-                href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=M1Ab5mEAAAAJ&amp;citation_for_view=M1Ab5mEAAAAJ:Tyk-4Ss8FVUC">New
-                lattice codes for multiple-descriptions</a>",</div>
-        <div><i>International Symposium on Information Theory</i>&nbsp;(ISIT), Hong Kong,
-            South Korea (July 2015)</div>
-        <div><a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7282722" target="_blank"
-                rel="nofollow noopener">[pdf]</a></div>
+      </div>
     </div>
-    <div>&nbsp;</div>
-    <div>
-        <div>
-            <div>
-                <div>
-                    <div><b>F. Shirani, S. Pradhan</b></div>
-                    <div>"<a class="gsc_a_at" href="https://ieeexplore.ieee.org/document/8437668">Lattices
-                            from Linear Codes and Fine Quantization: General Continuous
-                            Sources and Channels</a>",</div>
-                </div>
-            </div>
-        </div>
     </div>
-    <div>
-    </div>
-    <div>
-        <div>
-            <div><i>International Symposium on Information Theory</i>&nbsp;(ISIT), Vail,
-                Colorado, USA (July 2018)&nbsp;</div>
-            <div><a href="https://ieeexplore.ieee.org/document/8437668" target="_blank"
-                    rel="nofollow noopener">[pdf]</a></div>
-        </div>
-        <div>&nbsp;</div>
-    </div>
-    <hr />
-    <p><span style="color: #000000;"><span style="font-size: 18pt;"><strong>Structure Codes
-                    for Multiple-Descriptions</strong></span><br /></span></p>
-    <p><span style="color: #000000;">We proposed random coding and structured coding schemes
-            that improve upon the previous known&nbsp;achievability&nbsp;schemes in the
-            multiple descriptions problem. The schemes uses univariate, bivariate and
-            multi-variate common components to compress the source more
-            efficiently.<br /></span><span style="color: #000000;">Our Contributions include:<br /></span>
+  
+</div>  
+</div>
+<br><br><br><br><br>
+    <div >
+  <p><strong><span style="font-size: 24pt;">
+    Project 2: A Framework for Web Privacy</span></strong>
     </p>
-    <ul>
-        <li><i>An improved random coding scheme for the general multiple-descriptions
-                scheme.&nbsp;</i></li>
-        <li><i>A new structured coding scheme for the multiple-descriptions scheme.</i></li>
-        <li><i>Derivation of new general mutual covering and packing bounds for application
-                of nested&nbsp;structured&nbsp;codes, these bounds can have applications in
-                all other multi-terminal communications settings.</i></li>
+
+   Internet users reasonably expect their online identities and web browsing activities to remain
+        private. Unfortunately, this is far from the case in practice; in reality, users are constantly tracked on the
+        internet.<span class="Apple-converted-space">&nbsp; </span>As web tracking technologies become more
+        sophisticated and pervasive, there is an urgent need<span class="Apple-converted-space">&nbsp; </span>to
+        understand and <em>quantify</em> web users' privacy risks. In this project we address this problem by
+        considering online fingerprinting attacks as well as offline social network de-anonymization (graph matching
+        attacks).</p>
+
+      </div>
+
+      </div>
+    </div>
+
+      <div>
 
 
-        <div>
-            <div><b>F. Shirani, S. Pradhan</b></div>
-            <div>"<a href="https://ieeexplore.ieee.org/document/6874898">An achievable
-                    rate-distortion region for the multiple descriptions problem</a>",</div>
-            <div><i>International Symposium on Information Theory</i>&nbsp;(ISIT), Hawaii, USA
-                (July 2014)</div>
-            <div><a href="https://ieeexplore.ieee.org/document/6874898" target="_blank"
-                    rel="nofollow noopener">[pdf]</a></div>
-        </div>
-        <div>&nbsp;</div>
-        <div><b>F. Shirani, S. Pradhan</b></div>
-        <div>"<a href="https://ieeexplore.ieee.org/abstract/document/8288663/">An achievable
-                rate-distortion region for multiple descriptions source coding based on coset
-                codes</a>."&nbsp;<i>IEEE Transactions on Information Theory</i>&nbsp;64.5
-            (2018): 3781-3809.</div>
-        <div>
-            <div><a href="https://ieeexplore.ieee.org/abstract/document/8288663/" target="_blank"
-                    rel="nofollow noopener">[pdf]</a></div>
-        </div>
-        <div>&nbsp;</div>
-        <div>&nbsp;</div>
+  
+
+    <hr />
+    <p><strong><span style="font-size: 18pt;">Offline Social Network De-anonymization Attacks</span></strong></p>
+</div>
+<div>
+        In this project, we investigate the matchability of pairs of
+                &nbsp;correlated graphs and propose graph matching algorithms based on the concept of typicality from
+                information theory. Graph matching algorithms can be used to exploit the publicly available information
+                over several social networks to match their corresponding graphs and reveal private information.&nbsp;
+                Given a pair of stochastically correlated graphs, the objective is to deduce the
+                one-to-one&nbsp;correspondence between their vertices which is consistent with the underlying
+                statistical correlation. Previous approaches to the problem often leverage the graph structure for
+                reliable matching. In contrast, the approach proposed in this work considers the adjacency matrices of
+                the two graphs and uses concentration of measure theorems to determine whether the two graphs can be
+                matched reliably.&nbsp;We apply the framework both to seeded and seedless matching scenarios under
+                various random graph models. Our main result shows that reliable matching is&nbsp;contingent upon the
+                value of the mutual&nbsp;information&nbsp;between the variables corresponding to the
+                edge&nbsp;probabilities&nbsp;of the two graphs being greater than a critical value.
+  
+             
+                    
+</div>
+             
+<br>
+<br>
+<strong>Featured Publications:</strong>
+</span>
+</div>
+<ol>
+  <li>
+    <span style="font-size: 12pt;">F. Shirani Chaharsooghi, S. Garg, E. Erkip, <em><a href="https://ieeexplore.ieee.org/abstract/document/9344632">
+      "A concentration of measure approach to correlated graph matching"</a></em>,
+      IEEE Journal on Selected Areas in Information Theory 2.1 (2021): 338-351.
+      </span>
+    </li>
+    <li>
+      <span style="font-size: 12pt;">F. Shirani Chaharsooghi, S. Garg, E. Erkip,<em>
+         <a href="https://ieeexplore.ieee.org/document/8335178">
+          "Seeded graph matching: efficient algorithms and theoretical guarantees"</a></em>,
+          51st Asilomar Conference on Signals, Systems, and Computers, pp. 253-257. IEEE, 2017.
+        </span>
+
+        </li>
+      </ol>
+    </div>
+      
+  </div>
+</div>
+
+    </ol>
+    <Hr size="5" color="black">
+    <div>
+      <p><strong><span style="font-size: 18pt;">Online Fingerprinting Attacks </span></strong></p>  
+    </div>
+    <div>
+        <p><span style="font-size: 14pt; font-family: georgia, palatino, serif;">In this project, we develop&nbsp;a new
+                mathematical formulation for the problem of de-anonymizing internet users by actively querying their
+                membership in social network groups.&nbsp;In social network de-anonymization, it is assumed that an
+                anonymous victim visits an attacker’s website, and the attacker uses the victim’s browser history to
+                query her social media activity to find the victim's real-world identity. The objective is to use the
+                minimum number of queries possible to de-anonymize the user. In our stochastic model of the problem, the
+                attacker has partial prior knowledge of the group membership graph and receives noisy responses to its
+                queries. &nbsp;A new information theoretic framework for the design and analysis of de-anonymization
+                algorithms is developed and several new attack strategies are proposed which operate under different
+                de-anonymization scenarios. It is shown that the new strategies achieve optimal performance under
+                certain statistical models.&nbsp;</span></p>
+           </div>
+  </div>
 
 
-        <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-        <script>
-            (function (document) {
-                var toggle = document.querySelector('.sidebar-toggle');
-                var sidebar = document.querySelector('#sidebar');
-                var checkbox = document.querySelector('#sidebar-checkbox');
+<span  style="font-size: 12pt;"><b>Featured Publications:</b></span>
+</p>
+<ol class="ol1">
+  <li class="li1">
+    <span style="font-size: 12pt;">
+      M. Shariatnasab, F. Shirani, E. Erkip,
+      <em>&nbsp;<a href="https://ieeexplore.ieee.org/abstract/document/9678358">
+        "Fundamental privacy limits in bipartite networks under active attacks"
+      </a></em>, IEEE Journal on Selected Areas in Communications 40.3 (2022): 940-954.
+    </span>
+  </li>
 
-                document.addEventListener('click', function (e) {
-                    var target = e.target;
 
-                    if (!checkbox.checked ||
-                        sidebar.contains(target) ||
-                        (target === checkbox || target === toggle)) return;
+  <li class="li1">
+    <span style="font-size: 12pt;">
+      F. Shirani Chaharsooghi, S. Garg, E. Erkip,
+      <em>&nbsp;<a href="https://ieeexplore.ieee.org/document/8262775">
+        "An information theoretic framework for active de-anonymization in social networks based on group memberships"
+      </a></em>, 55th Annual Allerton Conference on Communication, Control, and Computing, pp. 470-477. IEEE, 2017.
+    </span>
+  </li>
+  <li>
+    <span style="font-size: 12pt;">F. Shirani Chaharsooghi, S. Garg, E. Erkip,
+      <em> <a href="https://ieeexplore.ieee.org/document/8437739">
+        "Optimal active social network de-anonymization using information thresholds"</a>
+        ,</em>&nbsp;IEEE International Symposium on Information Theory (ISIT), pp. 1445-1449. IEEE 2018.
+      </span>
+    </li>
+  </ol>
 
-                    checkbox.checked = false;
-                }, false);
-            })(document);
-        </script>
+
+
+             
+                    
+</div>
+             
+<br>
+<br>
+
+
+    </ol>
+    <hr />
+    <div>
+   
+
+
+
+
+
+<label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+<script>
+(function(document) {
+  var toggle = document.querySelector('.sidebar-toggle');
+  var sidebar = document.querySelector('#sidebar');
+  var checkbox = document.querySelector('#sidebar-checkbox');
+
+  document.addEventListener('click', function(e) {
+    var target = e.target;
+
+    if(!checkbox.checked ||
+       sidebar.contains(target) ||
+       (target === checkbox || target === toggle)) return;
+
+    checkbox.checked = false;
+  }, false);
+})(document);
+</script>
 </body>
-
 </html>
+
+

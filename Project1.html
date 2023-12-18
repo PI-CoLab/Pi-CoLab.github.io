@@ -1,37 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153588306-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-153588306-1');
+  </script>
 
-  <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153588306-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-153588306-1');
-</script>
-
-
-<style monster>
-body {
-    background: #24aecd;
-  }
-  
-  .monster {
-    width: 500px;
-    height: 283px;
-    margin: 1% auto;
-    background: url("spritesheet.png") left center;
-    animation: play 4s steps(19) infinite;
-  }
-  
-  @keyframes play {
-      100% { background-position: -19000px; }
-  }
-  </style>
-
-    <link href="monster.css" rel="monster" >
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -40,15 +18,16 @@ body {
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title>
-    
-    &Pi;-CoLab&middot; Research
-    
+
+    &Pi;-CoLab &middot; Research
+
   </title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="public/css/poole.css">
   <link rel="stylesheet" href="public/css/syntax.css">
   <link rel="stylesheet" href="public/css/lanyon.css">
+  <link rel="stylesheet" href="public/css/custom_styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
 
   <!-- Icons -->
@@ -57,249 +36,154 @@ body {
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="atom.xml">
+
+  <!-- overright main content in CSS to increase right margine-->
   <style>
-    body {
-      background-image: url("public/background.jpg");
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-    background-size: cover;
+    .main-content2 {
+      margin-left: 20%;
+      width:60%;
     }
+  </style>
     
-    </style>
 </head>
 
 
-  <body>
+<body>
 
-    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-     
-     <style type="text/css">
-      .nonmobileShow {display: none;}
-    
-      /* Smartphone Portrait and Landscape */
-      @media only screen
-        and (min-device-width : 480px)
-       { 
-          .nonmobileShow {display: inline;}
-      }
-    </style>
-    
-    
-    
-<style type="text/css">
-  .mobileShow {display: none;}
-
-  /* Smartphone Portrait and Landscape */
-  @media only screen
-    and (min-device-width : 320px)
-    and (max-device-width : 480px){ 
-      .mobileShow {display: inline;}
-  }
-</style>
-
-          <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox"  >
-    
-    
+  <div class="page-layout">
+    <!-- Sidebar -->
 
 
+  <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
 
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <div class="mobileShow">
-      <p><img src="public/images1.png"></p>
-
-      <small>
-        <font color=#8E8E8C>  Director: Farhad Shirani
-          <br>
-          Assistant Professor<br> 
-      <a href = "https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao"><font color=#8E8E8C> <u>Google Scholar</u>, <a href = "mailto: fshirani@fiu.edu"><font color=#8E8E8C> <u>Email</u></font></a>, <a href = "/public/CV.pdf"><font color=#8E8E8C> <u>CV</u></font></a></font>
-      </small>
-    </div>
-    <div class="nonmobileShow">
-      <p><img src="public/images2.jpg" , style="width:550px;height:220px"></p>
-      </br>
-      <p style="font-family:candara, arial,helvetica;">
-   
-        <!-- <font size="+2" , font color=' #e6e6e6'>      &Pi;-CoLab </font><br>
-
+  <!-- Sidebar Content -->
+  <div class="sidebar" id="sidebar">
+    <!-- Sidebar Items -->
+    <div class="sidebar-item">
+      <div class="mobileShow">
+        <p><a href="/index2.html"><img src="public/images1.png" alt="Logo"></a></p>
+        <!-- Director Info -->
         <small>
-          <font color=#8E8E8C> Privacy, Inference, and Communications Labratoary</font><br>
-        </small>
-        <hr> -->
-        <font size="+2" , font color=' #e6e6e6'>&Pi;-CoLab </font><br>
-
-        <small>
-          <font color=#8E8E8C>  Director: Farhad Shirani
+          <font color="#8E8E8C"> Director: Farhad Shirani
             <br>
-            Assistant Professor<br> 
-            <a href = "https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao"><font color=#8E8E8C> <u>Google Scholar</u>, <a href = "mailto: fshirani@fiu.edu"><font color=#8E8E8C> <u>Email</u></font></a>, <a href = "/public/CV.pdf"><font color=#8E8E8C> <u>CV</u></font></a>/font>
+            Assistant Professor<br>
+            <a href="https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao">Google Scholar</a>,
+            <a href="mailto:fshirani@fiu.edu">Email</a>,
+            <a href="/public/CV.pdf">CV</a>
+          </font>
         </small>
-
-      </p> 
+      </div>
+      <div class="nonmobileShow">
+        <p><img src="public/images2.jpg" style="width:550px;height:220px" alt="Lab Photo"></p>
+        <p style="font-family:candara, arial, helvetica;">
+          <font size="+2" color="#e6e6e6">&Pi;-CoLab</font><br>
+          <small>
+            <font color="#8E8E8C"> Director: Farhad Shirani
+              <br>
+              Assistant Professor<br>
+              <a href="https://scholar.google.com/citations?user=M1Ab5mEAAAAJ&hl=en&oi=ao">Google Scholar</a>,
+              <a href="mailto:fshirani@fiu.edu">Email</a>,
+              <a href="/public/CV.pdf">CV</a>
+            </font>
+          </small>
+        </p>
+      </div>
     </div>
+
+    <!-- Navigation -->
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="index2.html">Home</a>
+      <a class="sidebar-nav-item" href="People.html">People</a>
+      <a class="sidebar-nav-item" href="Research.html">Research</a>
+      <a class="sidebar-nav-item" href="publications.html">Publications</a>
+    </nav>
+
+    <!-- Footer -->
+    <div class="sidebar-item">
+      <p>&copy; 2023. All rights reserved.<br>Last Updated: December 2023</p>
     </div>
-    
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="index2.html">Home</a>
-
-    
-
-    
-    
-      
-        
-      
-    
-      
-        
-      
-    
-      
-        
-    <a class="sidebar-nav-item" href="People.html">People</a>
-      
-    
-      
-    
-      
-    
-    <a class="sidebar-nav-item active" href="Research.html">Research</a>
-    <a class="sidebar-nav-item" href="publications.html">Publications</a>
-  </nav>
-
-  <div class="sidebar-item">
-    <p>
-      &copy; 2019. All rights reserved.
-    </br> Last Updated: October 2019
-    </p>
   </div>
-</div>
 
 
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+
+  <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
+         <div class="main-content2">  
+  <div class="container1">
+
     <div class="wrap">
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="" title="Home"><p style = "font-family:candara, arial,helvetica;">  &Pi;-CoLab<br></a>
+            <a href="" title="Home" style="font-family: candara, arial, helvetica; color: black;">&Pi;-CoLab<br></a>
             <small>
-              <font color=#8E8E8C>Privacy, Inference,<br> and Communications Laboratory</font>
-            </p>
+              <p style="text-align: center; color: black;">Privacy, Inference,<br> and Communications Laboratory</p>
+            </small>
           </h3>
+
+            
+
+
         </div>
       </div>
-
-      <div class="container content">
-        <div class="page">
-  <style>
-  img {
-    border-radius: 70%;
-  }
-  </style>
-
-
-
-
-
-
-
-<div>
-    <p><span style="font-size: 18pt;"><strong>Project 1: A Framework for Web Privacy</strong></span></p>
-    <p class="p1">Internet users reasonably expect their online identities and web browsing activities to remain
-        private. Unfortunately, this is far from the case in practice; in reality, users are constantly tracked on the
-        internet.<span class="Apple-converted-space">&nbsp; </span>As web tracking technologies become more
-        sophisticated and pervasive, there is an urgent need<span class="Apple-converted-space">&nbsp; </span>to
-        understand and <em>quantify</em> web users' privacy risks. In this project we address this problem by
-        considering online fingerprinting attacks as well as offline social network de-anonymization (graph matching
-        attacks).</p>
-</div>
-<div>
-
-    <hr />
-    <p><span style="font-size: 18pt;"><strong>Offline Social Network De-anonymization Attacks</strong></span></p>
-</div>
-<div>
-    <div>&nbsp;</div>
-    <div>
-        <div>&nbsp;</div>
-        <div><span style="font-size: 14pt;">In this project, we investigate the matchability of pairs of
-                &nbsp;correlated graphs and propose graph matching algorithms based on the concept of typicality from
-                information theory. Graph matching algorithms can be used to exploit the publicly available information
-                over several social networks to match their corresponding graphs and reveal private information.&nbsp;
-                Given a pair of stochastically correlated graphs, the objective is to deduce the
-                one-to-one&nbsp;correspondence between their vertices which is consistent with the underlying
-                statistical correlation. Previous approaches to the problem often leverage the graph structure for
-                reliable matching. In contrast, the approach proposed in this work considers the adjacency matrices of
-                the two graphs and uses concentration of measure theorems to determine whether the two graphs can be
-                matched reliably.&nbsp;We apply the framework both to seeded and seedless matching scenarios under
-                various random graph models. Our main result shows that reliable matching is&nbsp;contingent upon the
-                value of the mutual&nbsp;information&nbsp;between the variables corresponding to the
-                edge&nbsp;probabilities&nbsp;of the two graphs being greater than a critical value.&nbsp;</span></div>
-  
-                <div class="monster">
-                    
-                </div>
-                <div>&nbsp;</div><div title="Page 1"><div><span style="font-size: 12pt;"><strong>Featured Publications:</strong></span></div><ol><li><span style="font-size: 12pt;">F. Shirani Chaharsooghi, S. Garg, E. Erkip, <em><a href="https://ieeexplore.ieee.org/document/8437567/">'Typicality matching for pairs of correlated graphs'</a></em>, IEEE International Symposium on Information Theory (ISIT), pp. 221-225. IEEE, 2018.</span></li><li><span style="font-size: 12pt;">F. Shirani Chaharsooghi, S. Garg, E. Erkip,<em> <a href="https://ieeexplore.ieee.org/document/8335178">'Seeded graph matching: efficient algorithms and theoretical guarantees'</a></em>, 51st Asilomar Conference on Signals, Systems, and Computers, pp. 253-257. IEEE, 2017</span>.</li></ol></div>
-            </div>
-    <div>&nbsp;</div>
-</div>
-
-    </ol>
-    <hr />
-    <div>
-        <p>&nbsp;</p>
-        <p><span style="font-size: 18pt;"><b>Online Fingerprinting Attacks</b></span></p>
     </div>
-    <div>
-        <p><span style="font-size: 14pt; font-family: georgia, palatino, serif;">In this project, we develop&nbsp;a new
-                mathematical formulation for the problem of de-anonymizing internet users by actively querying their
-                membership in social network groups.&nbsp;In social network de-anonymization, it is assumed that an
-                anonymous victim visits an attacker’s website, and the attacker uses the victim’s browser history to
-                query her social media activity to find the victim's real-world identity. The objective is to use the
-                minimum number of queries possible to de-anonymize the user. In our stochastic model of the problem, the
-                attacker has partial prior knowledge of the group membership graph and receives noisy responses to its
-                queries. &nbsp;A new information theoretic framework for the design and analysis of de-anonymization
-                algorithms is developed and several new attack strategies are proposed which operate under different
-                de-anonymization scenarios. It is shown that the new strategies achieve optimal performance under
-                certain statistical models.&nbsp;</span></p>
-           </div>
-    <iframe src="https://drive.google.com/file/d/1axi2YSxmGusmuFfzDt1JeUCkWuzRqncG/preview" width="640" height="480"></iframe>
-</div>
+    </div>
+  
 
 
 
-<p class="p3"><span class="s1" style="font-size: 12pt;"><b>Featured Publications:</b></span></p><ol class="ol1"><li class="li1"><span style="font-size: 12pt;">F. Shirani Chaharsooghi, S. Garg, E. Erkip,<em>&nbsp;<a href="https://ieeexplore.ieee.org/document/8262775">'An information theoretic framework for active de-anonymization in social networks based on group memberships'</a></em>, 55th Annual Allerton Conference on Communication, Control, and Computing, pp. 470-477. IEEE, 2017.</span></li><li><span style="font-size: 12pt;">F. Shirani Chaharsooghi, S. Garg, E. Erkip,<em> <a href="https://ieeexplore.ieee.org/document/8437739">'Optimal active social network de-anonymization using information thresholds'</a>,</em>&nbsp;IEEE International Symposium on Information Theory (ISIT), pp. 1445-1449. IEEE 2018.</span></li></ol>
 
 
+                <p><strong><span style="font-size: 24pt;">Project 1: Explainability in Graph Neural Networks</span></strong>
+                <p>
+                    The pervasiveness of machine learning solutions in critical domains such as autonomous vehicles, medical diagnostics,
+                    financial systems, and even sensitive security and military applications has created an urgent need for
+                     trustworthy and explainable AI (XAI).
+                      The black-box nature of many state-of-the-art machine learning models, such as DNNs and GNNs, 
+                      has become a significant concern for both practitioners and regulators. 
+                      In this project, we develop an information theoretic framework for GNN explainability along with explanation methods and implementable algorithms.
+                      The overarching objective of this project is to 
+develop a unified framework for GNN-XAI which addresses the major challenges 
+arising in i) the design and training of explainable GNNs, ii) 
+construction of informative explanation functions for GNNs, and iii) development of 
+robust evaluation metrics to evaluate the performance of explainers.
+                      <br>
+                        <br>
+              
+                <IMG STYLE="WIDTH:600px; HEIGHT:250px;   margin-left: auto;
+                margin-right: auto;" SRC="framework.jpeg">
 
-</div>
 
-</div>
-</div>
+Recent Publications:
+<br>
+<br>
+<ul>
+<li> R. Huang, F. Shirani, D. Luo, <a href="https://arxiv.org/pdf/2312.05596.pdf"> "Factorized Explainer for Graph Neural Networks"</a>,  Proceedings of 38th AAAI Conference on Artificial Intelligence, 2024.</li>
+<li> X. Zheng, F. Shirani, T Wang,
+    , W. Cheng, Z. Chen,H. Chen, H. Wei, D. Luo,   
+    <a href=https://arxiv.org/pdf/2310.01820.pdf> "Towards Robust Fidelity For Evaluating Explainability Of Graph Neural Networks"</a>,  Under Review in International Conference on Learning Representations (ICLR), 2024.</li>
+  
 
-<label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-<script>
-(function(document) {
-  var toggle = document.querySelector('.sidebar-toggle');
-  var sidebar = document.querySelector('#sidebar');
-  var checkbox = document.querySelector('#sidebar-checkbox');
+                <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-  document.addEventListener('click', function(e) {
-    var target = e.target;
+                <script>
+                    (function (document) {
+                        var toggle = document.querySelector('.sidebar-toggle');
+                        var sidebar = document.querySelector('#sidebar');
+                        var checkbox = document.querySelector('#sidebar-checkbox');
 
-    if(!checkbox.checked ||
-       sidebar.contains(target) ||
-       (target === checkbox || target === toggle)) return;
+                        document.addEventListener('click', function (e) {
+                            var target = e.target;
 
-    checkbox.checked = false;
-  }, false);
-})(document);
-</script>
+                            if (!checkbox.checked ||
+                                sidebar.contains(target) ||
+                                (target === checkbox || target === toggle)) return;
+
+                            checkbox.checked = false;
+                        }, false);
+                    })(document);
+                </script>
 </body>
+
 </html>
-
-
